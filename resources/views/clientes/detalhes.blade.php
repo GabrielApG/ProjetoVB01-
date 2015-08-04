@@ -96,6 +96,7 @@
         <li role="presentation"><a href="{{ route('hoteis.detalhes',['id'=>$clientes->id]) }}"><span class="glyphicon glyphicon-king"></span> Hoteis</a></li>
         <li role="presentation"><a href="{{ route('extras.detalhes',['id'=>$clientes->id]) }}"><span class="glyphicon glyphicon-king"></span> Extras</a></li>
         <li role="presentation"><a href="{{ route('roteiros.detalhes',['id'=>$clientes->id]) }}"><span class="glyphicon glyphicon-screenshot"></span> Roteiros</a></li>
+        <li role="presentation"><a href="{{ route('observacao.detalhes',['id'=>$clientes->id]) }}"><span class="glyphicon glyphicon-book"></span> Observações</a></li>
     </ul>
     <br />
 

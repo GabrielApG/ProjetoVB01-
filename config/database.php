@@ -28,7 +28,7 @@ return [
 
 	//'default' => env('DB_DRIVER', 'mysql'),
 
-    'default' => 'mysql',
+    'default' => env('DB_DRIVER', 'mysql'),
 
 	/*
 	|--------------------------------------------------------------------------
