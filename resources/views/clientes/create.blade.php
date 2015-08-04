@@ -132,7 +132,7 @@
 
         <label class="col-md-3 control-label">Data Nascimento </label>
         <div class="col-sm-2">
-            {!! Form::input('date','data_nasc','',['class'=>'form-control']) !!}
+            {!! Form::input('date','data_nasc','null',['class'=>'form-control', 'id'=>'data_nasc']) !!}
         </div>
     </div>
 
@@ -170,13 +170,13 @@
 
         <label class="col-md-2 control-label">Data Emiss. Pass. </label>
         <div class="col-sm-3">
-            {!! Form::input('date','data_emissao_passaporte','',['class'=>'form-control']) !!}
+            {!! Form::input('date','data_emissao_passaporte','null',['class'=>'form-control']) !!}
         </div>
     </div>
     <div class="form-group">
         <label class="col-md-2 control-label">Val. Pass. </label>
         <div class="col-sm-2">
-            {!! Form::input('date','validade_passaporte','',['class'=>'form-control']) !!}
+            {!! Form::input('date','validade_passaporte','null',['class'=>'form-control']) !!}
         </div>
     </div>
 
@@ -229,6 +229,19 @@
             });
         });
     });
+
+    function valida_form (){
+        if(document.getElementById("data_nasc").value == ""){
+            alert('Por favor, preencha o campo nome');
+            document.getElementById("data_nasc").focus();
+            return false
+        }else if (document.getElementById("data_nasc").value == null) {
+            alert('Por favor, preencha o campo nome');
+            document.getElementById("data_nasc").focus();
+            return false
+        }
+    }
+
 
 </script>
 @endsection
