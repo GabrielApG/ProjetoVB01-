@@ -1,0 +1,1181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6569c38e-cb17-45cd-9764-7af6184ecb14" name="Default" comment="">
+<<<<<<< HEAD
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\app\Clientes_trens.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\fzaninotto\faker\CHANGELOG" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\fzaninotto\faker\src\Faker\Provider\pt_PT\Internet.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\fzaninotto\faker\test\Faker\PHPUnit\Framework\Constraint\IsValidSiren.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\fzaninotto\faker\test\Faker\PHPUnit\Framework\Constraint\IsValidSirenSiret.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\fzaninotto\faker\test\Faker\PHPUnit\Framework\Constraint\IsValidSiret.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\fzaninotto\faker\test\Faker\Provider\pt_PT\InternetTest.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\monolog\monolog\tests\bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\nesbot\carbon\phpunit.xml.dist" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\nesbot\carbon\tests\AddTest.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\nesbot\carbon\tests\ComparisonTest.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\nesbot\carbon\tests\ConstructTest.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\nesbot\carbon\tests\CopyTest.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\nesbot\carbon\tests\CreateFromDateTest.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\nesbot\carbon\tests\CreateFromFormatTest.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\nesbot\carbon\tests\CreateFromTimeTest.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\nesbot\carbon\tests\CreateFromTimestampTest.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\nesbot\carbon\tests\CreateTest.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\nesbot\carbon\tests\DayOfWeekModifiersTest.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\nesbot\carbon\tests\DiffTest.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\nesbot\carbon\tests\FluidSettersTest.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\nesbot\carbon\tests\GettersTest.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\nesbot\carbon\tests\InstanceTest.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\nesbot\carbon\tests\IsTest.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\nesbot\carbon\tests\IssetTest.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\nesbot\carbon\tests\NowAndOtherStaticHelpersTest.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\nesbot\carbon\tests\RelativeTest.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\nesbot\carbon\tests\SettersTest.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\nesbot\carbon\tests\StartEndOfTest.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\nesbot\carbon\tests\StringsTest.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\nesbot\carbon\tests\SubTest.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\nesbot\carbon\tests\TestFixture.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\nesbot\carbon\tests\TestingAidsTest.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\nikic\php-parser\lib\PhpParser\Node\Expr\Cast\Bool.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\nikic\php-parser\lib\PhpParser\Node\Expr\Cast\Int.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\nikic\php-parser\lib\PhpParser\Node\Expr\Cast\Object.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\nikic\php-parser\lib\PhpParser\Node\Expr\Cast\String.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\nikic\php-parser\lib\PhpParser\Node\Scalar\String.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\phpspec\phpspec\features\bootstrap\Fake\DialogHelper.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\phpunit\php-code-coverage\src\CodeCoverage\Report\HTML\Renderer\Template\css\nv.d3.css" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\phpunit\php-code-coverage\src\CodeCoverage\Report\HTML\Renderer\Template\js\holder.js" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\phpunit\php-file-iterator\ChangeLog.markdown" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\phpunit\php-file-iterator\File\Iterator.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\phpunit\php-file-iterator\File\Iterator\Autoload.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\phpunit\php-file-iterator\File\Iterator\Autoload.php.in" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\phpunit\php-file-iterator\File\Iterator\Facade.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\phpunit\php-file-iterator\File\Iterator\Factory.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\phpunit\php-file-iterator\README.markdown" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\phpunit\php-file-iterator\build.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\phpunit\php-file-iterator\build\PHPCS\Sniffs\ControlStructures\ControlSignatureSniff.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\phpunit\php-file-iterator\build\PHPCS\Sniffs\Whitespace\ConcatenationSpacingSniff.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\phpunit\php-file-iterator\build\PHPCS\ruleset.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\phpunit\php-file-iterator\build\phpmd.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\phpunit\php-file-iterator\package.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\phpunit\php-text-template\ChangeLog.md" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\phpunit\php-text-template\Text\Template.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\phpunit\php-text-template\Text\Template\Autoload.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\phpunit\php-text-template\Text\Template\Autoload.php.in" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\phpunit\php-text-template\build.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\phpunit\php-text-template\build\PHPCS\Sniffs\ControlStructures\ControlSignatureSniff.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\phpunit\php-text-template\build\PHPCS\Sniffs\Whitespace\ConcatenationSpacingSniff.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\phpunit\php-text-template\build\PHPCS\ruleset.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\phpunit\php-text-template\build\phpmd.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\phpunit\php-text-template\package.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\phpunit\php-timer\PHP\Timer.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\phpunit\php-timer\PHP\Timer\Autoload.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\phpunit\php-timer\PHP\Timer\Autoload.php.in" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\phpunit\php-timer\build.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\phpunit\php-timer\build\PHPCS\Sniffs\ControlStructures\ControlSignatureSniff.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\phpunit\php-timer\build\PHPCS\Sniffs\Whitespace\ConcatenationSpacingSniff.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\phpunit\php-timer\build\PHPCS\ruleset.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\phpunit\php-timer\build\phpmd.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\phpunit\php-timer\package.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\phpunit\php-timer\phpunit.xml.dist" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\phpunit\phpunit\build\phpmd.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\phpunit\phpunit\tests\Regression\GitHub\1340.phpt" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\phpunit\phpunit\tests\Regression\GitHub\1340\Issue1340Test.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\phpunit\phpunit\tests\Regression\GitHub\873.phpt" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\phpunit\phpunit\tests\TextUI\fatal.phpt" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\phpunit\phpunit\tests\_files\Error.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\sebastian\version\ChangeLog.md" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\sebastian\version\build.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\sebastian\version\build\package.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\sebastian\version\build\phpunit.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\sebastian\version\src\autoload.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\sebastian\version\tests\bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\swiftmailer\swiftmailer\notes\APPS" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\swiftmailer\swiftmailer\notes\CHARSETS" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\swiftmailer\swiftmailer\notes\message.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\swiftmailer\swiftmailer\notes\rfc\rfc0821.txt" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\swiftmailer\swiftmailer\notes\rfc\rfc0822.txt" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\swiftmailer\swiftmailer\notes\rfc\rfc1341.txt" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\swiftmailer\swiftmailer\notes\rfc\rfc1521.txt" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\swiftmailer\swiftmailer\notes\rfc\rfc1854.txt" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\swiftmailer\swiftmailer\notes\rfc\rfc2015.txt" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\swiftmailer\swiftmailer\notes\rfc\rfc2045.txt" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\swiftmailer\swiftmailer\notes\rfc\rfc2046.txt" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\swiftmailer\swiftmailer\notes\rfc\rfc2047.txt" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\swiftmailer\swiftmailer\notes\rfc\rfc2048.txt" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\swiftmailer\swiftmailer\notes\rfc\rfc2049.txt" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\swiftmailer\swiftmailer\notes\rfc\rfc2183.txt" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\swiftmailer\swiftmailer\notes\rfc\rfc2222.txt" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\swiftmailer\swiftmailer\notes\rfc\rfc2231.txt" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\swiftmailer\swiftmailer\notes\rfc\rfc2234.txt" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\swiftmailer\swiftmailer\notes\rfc\rfc2440.txt" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\swiftmailer\swiftmailer\notes\rfc\rfc2487.txt" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\swiftmailer\swiftmailer\notes\rfc\rfc2554.txt" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\swiftmailer\swiftmailer\notes\rfc\rfc2821.txt" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\swiftmailer\swiftmailer\notes\rfc\rfc2822.txt" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\swiftmailer\swiftmailer\notes\rfc\rfc3156.txt" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\swiftmailer\swiftmailer\notes\rfc\rfc3676.txt" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\swiftmailer\swiftmailer\notes\rfc\rfc4505.txt" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\swiftmailer\swiftmailer\notes\rfc\rfc4616.txt" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\swiftmailer\swiftmailer\notes\rfc\rfc4870.txt" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\swiftmailer\swiftmailer\notes\rfc\rfc4871.txt" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\swiftmailer\swiftmailer\notes\rfc\rfc4880.txt" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\swiftmailer\swiftmailer\notes\rfc\rfc4954.txt" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\swiftmailer\swiftmailer\notes\rfc\rfc5751.txt" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\swiftmailer\swiftmailer\notes\rfc\whats_where.txt" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\swiftmailer\swiftmailer\notes\smtp.txt" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\debug\Symfony\Component\Debug\Tests\Fixtures\RequiredTwice.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\ContainerAwareEventDispatcher.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\Debug\TraceableEventDispatcher.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\Debug\TraceableEventDispatcherInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\Debug\WrappedListener.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\DependencyInjection\RegisterListenersPass.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\Event.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\EventDispatcher.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\EventDispatcherInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\EventSubscriberInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\GenericEvent.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\ImmutableEventDispatcher.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\README.md" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\Tests\AbstractEventDispatcherTest.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\Tests\ContainerAwareEventDispatcherTest.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\Tests\Debug\TraceableEventDispatcherTest.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\Tests\DependencyInjection\RegisterListenersPassTest.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\Tests\EventDispatcherTest.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\Tests\EventTest.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\Tests\GenericEventTest.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\Tests\ImmutableEventDispatcherTest.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\composer.json" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\event-dispatcher\Symfony\Component\EventDispatcher\phpunit.xml.dist" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\filesystem\Symfony\Component\Filesystem\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\filesystem\Symfony\Component\Filesystem\CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\filesystem\Symfony\Component\Filesystem\Exception\ExceptionInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\filesystem\Symfony\Component\Filesystem\Exception\FileNotFoundException.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\filesystem\Symfony\Component\Filesystem\Exception\IOException.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\filesystem\Symfony\Component\Filesystem\Exception\IOExceptionInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\filesystem\Symfony\Component\Filesystem\Filesystem.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\filesystem\Symfony\Component\Filesystem\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\filesystem\Symfony\Component\Filesystem\LockHandler.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\filesystem\Symfony\Component\Filesystem\README.md" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\filesystem\Symfony\Component\Filesystem\Tests\ExceptionTest.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\filesystem\Symfony\Component\Filesystem\Tests\FilesystemTest.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\filesystem\Symfony\Component\Filesystem\Tests\FilesystemTestCase.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\filesystem\Symfony\Component\Filesystem\Tests\LockHandlerTest.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\filesystem\Symfony\Component\Filesystem\composer.json" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\filesystem\Symfony\Component\Filesystem\phpunit.xml.dist" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\yaml\Symfony\Component\Yaml\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\yaml\Symfony\Component\Yaml\CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\yaml\Symfony\Component\Yaml\Dumper.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\yaml\Symfony\Component\Yaml\Escaper.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\yaml\Symfony\Component\Yaml\Exception\DumpException.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\yaml\Symfony\Component\Yaml\Exception\ExceptionInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\yaml\Symfony\Component\Yaml\Exception\ParseException.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\yaml\Symfony\Component\Yaml\Exception\RuntimeException.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\yaml\Symfony\Component\Yaml\Inline.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\yaml\Symfony\Component\Yaml\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\yaml\Symfony\Component\Yaml\Parser.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\yaml\Symfony\Component\Yaml\README.md" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\yaml\Symfony\Component\Yaml\Tests\DumperTest.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\yaml\Symfony\Component\Yaml\Tests\Fixtures\YtsAnchorAlias.yml" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\yaml\Symfony\Component\Yaml\Tests\Fixtures\YtsBasicTests.yml" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\yaml\Symfony\Component\Yaml\Tests\Fixtures\YtsBlockMapping.yml" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\yaml\Symfony\Component\Yaml\Tests\Fixtures\YtsDocumentSeparator.yml" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\yaml\Symfony\Component\Yaml\Tests\Fixtures\YtsErrorTests.yml" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\yaml\Symfony\Component\Yaml\Tests\Fixtures\YtsFlowCollections.yml" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\yaml\Symfony\Component\Yaml\Tests\Fixtures\YtsFoldedScalars.yml" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\yaml\Symfony\Component\Yaml\Tests\Fixtures\YtsNullsAndEmpties.yml" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\yaml\Symfony\Component\Yaml\Tests\Fixtures\YtsSpecificationExamples.yml" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\yaml\Symfony\Component\Yaml\Tests\Fixtures\YtsTypeTransfers.yml" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\yaml\Symfony\Component\Yaml\Tests\Fixtures\embededPhp.yml" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\yaml\Symfony\Component\Yaml\Tests\Fixtures\escapedCharacters.yml" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\yaml\Symfony\Component\Yaml\Tests\Fixtures\index.yml" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\yaml\Symfony\Component\Yaml\Tests\Fixtures\sfComments.yml" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\yaml\Symfony\Component\Yaml\Tests\Fixtures\sfCompact.yml" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\yaml\Symfony\Component\Yaml\Tests\Fixtures\sfMergeKey.yml" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\yaml\Symfony\Component\Yaml\Tests\Fixtures\sfObjects.yml" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\yaml\Symfony\Component\Yaml\Tests\Fixtures\sfQuotes.yml" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\yaml\Symfony\Component\Yaml\Tests\Fixtures\sfTests.yml" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\yaml\Symfony\Component\Yaml\Tests\Fixtures\unindentedCollections.yml" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\yaml\Symfony\Component\Yaml\Tests\InlineTest.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\yaml\Symfony\Component\Yaml\Tests\ParseExceptionTest.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\yaml\Symfony\Component\Yaml\Tests\ParserTest.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\yaml\Symfony\Component\Yaml\Tests\YamlTest.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\yaml\Symfony\Component\Yaml\Unescaper.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\yaml\Symfony\Component\Yaml\Yaml.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\yaml\Symfony\Component\Yaml\composer.json" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\symfony\yaml\Symfony\Component\Yaml\phpunit.xml.dist" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\vlucas\phpdotenv\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\vlucas\phpdotenv\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\vlucas\phpdotenv\phpunit.xml" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\vlucas\phpdotenv\tests\Dotenv\Dotenv.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\vlucas\phpdotenv\tests\bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\vlucas\phpdotenv\tests\fixtures\.env" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\vlucas\phpdotenv\tests\fixtures\commented.env" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\vlucas\phpdotenv\tests\fixtures\exported.env" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\vlucas\phpdotenv\tests\fixtures\nested.env" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\vlucas\phpdotenv\tests\fixtures\quoted.env" afterPath="" />
+      <change type="DELETED" beforePath="F:\server\ProjetoVB\vendor\vlucas\phpdotenv\tests\fixtures\specialchars.env" afterPath="" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/clientes/create.blade.php" afterPath="$PROJECT_DIR$/resources/views/clientes/create.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+>>>>>>> origin/master
+    </list>
+    <ignored path="laravel.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="laravel" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="create.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/clientes/create.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.48920864" vertical-offset="0" max-vertical-offset="4131">
+              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ClientesController.php" />
+        <option value="$PROJECT_DIR$/resources/views/clientesOrcamento/orcamento.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/dependentes/detalhes.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/clientes/index.blade.php" />
+        <option value="$PROJECT_DIR$/public/js/mascaras.js" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/VoosController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/TrensController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/TransferController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/PasseiosController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ExtrasController.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/RoteirosController.php" />
+        <option value="$PROJECT_DIR$/resources/views/voos/create.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/reset.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/password.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/clientes/detalhesClientes.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/transfers/editTransferCliente.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/HoteisController.php" />
+        <option value="$PROJECT_DIR$/resources/views/relatorios/orcamento.blade.php" />
+        <option value="$PROJECT_DIR$/app/Hoteis.php" />
+        <option value="$PROJECT_DIR$/resources/views/hoteis/editHotelCliente.blade.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2015_05_09_233159_create_hoteis_table.php" />
+        <option value="$PROJECT_DIR$/resources/views/app.blade.php" />
+        <option value="$PROJECT_DIR$/public/css/relatorio.css" />
+        <option value="$PROJECT_DIR$/resources/views/voos/editVooCliente.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/clientes/detalhes.blade.php" />
+        <option value="$PROJECT_DIR$/public/css/all.css" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/RelatoriosController.php" />
+        <option value="$PROJECT_DIR$/resources/views/relatorios/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/relatorios/compra.blade.php" />
+        <option value="$PROJECT_DIR$/app/Clientes.php" />
+        <option value="$PROJECT_DIR$/app/Observacoes.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2015_07_31_032906_create_observacoes_table.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2015_07_31_042038_add_foreign_key_Observacoes.php" />
+        <option value="$PROJECT_DIR$/resources/views/voos/detalhes.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/trens/detalhes.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/transfers/detalhes.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/passeios/detalhes.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/hoteis/detalhes.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/extras/detalhes.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/roteiros/detalhes.blade.php" />
+        <option value="$PROJECT_DIR$/config/app.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/app/Http/Requests/ObservacoesRequest.php" />
+        <option value="$PROJECT_DIR$/resources/views/observacoes/edit.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/ObservacoesController.php" />
+        <option value="$PROJECT_DIR$/resources/views/observacoes/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/lembretes/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/clientes/create.blade.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <gulpfiles>
+      <GulpfileState>
+        <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
+      </GulpfileState>
+    </gulpfiles>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjetoVB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjetoVB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+<<<<<<< HEAD
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+=======
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjetoVB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clientes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjetoVB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjetoVB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ProjetoVB" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Http" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+>>>>>>> origin/master
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Novo/ProjetoVB" />
+    <property name="FullScreen" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="jquery.min.js&#9;FILE&#9;file://F:/server/ProjetoVB/vendor/phenx/php-font-lib/www/js/jquery-1.5.1.min.js&#10;rout&#9;FILE&#9;file://F:/server/ProjetoVB/app/Http/routes.php&#10;store.blade.php&#9;null&#9;null&#10;jquery&#9;FILE&#9;file://F:/server/laravel/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/HTML/Renderer/Template/js/jquery.min.js&#10;ajax&#9;null&#9;null&#10;bootstrap.min.js&#9;FILE&#9;file://F:/server/laravel/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/HTML/Renderer/Template/js/bootstrap.min.js" />
+    <property name="JavaScriptLanguageLevel" value="JSX" />
+    <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\server\ProjetoVB\resources\views\observacoes" />
+      <recent name="F:\server\ProjetoVB\public\img" />
+      <recent name="F:\server\ProjetoVB\public\js" />
+      <recent name="F:\server\ProjetoVB\resources\views" />
+      <recent name="F:\server\ProjetoVB\resources\views\roteiros" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\server\ProjetoVB\public\js" />
+      <recent name="F:\server\ProjetoVB\app\Http\Controllers" />
+      <recent name="F:\server\laravel\resources\views\clienteOrcamento" />
+      <recent name="F:\server\laravel\database\Script SQL" />
+      <recent name="F:\server\laravel\resources\views\situacoes" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6569c38e-cb17-45cd-9764-7af6184ecb14" name="Default" comment="" />
+      <created>1431214189696</created>
+      <option name="number" value="Default" />
+      <updated>1431214189696</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+<<<<<<< HEAD
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="false" />
+=======
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+>>>>>>> origin/master
+    <layout>
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32881355" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32881355" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25183016" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25183016" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> origin/master
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32786885" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32459018" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="58" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/RelatoriosController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0701439" vertical-offset="11611" max-vertical-offset="14535">
+          <caret line="683" column="35" selection-start-line="683" selection-start-column="35" selection-end-line="683" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/LembretesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33633092" vertical-offset="0" max-vertical-offset="867">
+          <caret line="14" column="61" selection-start-line="13" selection-start-column="8" selection-end-line="14" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_05_23_225750_create_pacotes_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="582">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Clientes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33992806" vertical-offset="440" max-vertical-offset="1071">
+          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_05_24_165156_add_foreign_key_hoteis.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48920864" vertical-offset="612" max-vertical-offset="1479">
+          <caret line="53" column="11" selection-start-line="51" selection-start-column="7" selection-end-line="53" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_07_04_221829_add_foreign_key_Roteiros.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="582">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_06_17_041838_add_foreign_key_Extras_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="582">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_05_09_233239_create_passeios_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6115108" vertical-offset="0" max-vertical-offset="629">
+          <caret line="21" column="54" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_07_31_032906_create_observacoes_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12230216" vertical-offset="0" max-vertical-offset="663">
+          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2015_07_31_042038_add_foreign_key_Observacoes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4586331" vertical-offset="0" max-vertical-offset="556">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/relatorios/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.4676259" vertical-offset="1552" max-vertical-offset="2465">
+          <caret line="64" column="25" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/VoosController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4208633" vertical-offset="140" max-vertical-offset="2958">
+          <caret line="28" column="40" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/voos/detalhes.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8255396" vertical-offset="51" max-vertical-offset="1989">
+          <caret line="17" column="166" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="166" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/trens/detalhes.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9172662" vertical-offset="0" max-vertical-offset="1802">
+          <caret line="17" column="166" selection-start-line="17" selection-start-column="166" selection-end-line="17" selection-end-column="166" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/transfers/detalhes.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9172662" vertical-offset="0" max-vertical-offset="1632">
+          <caret line="17" column="166" selection-start-line="17" selection-start-column="166" selection-end-line="17" selection-end-column="166" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/hoteis/detalhes.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54856116" vertical-offset="205" max-vertical-offset="2023">
+          <caret line="17" column="166" selection-start-line="17" selection-start-column="166" selection-end-line="17" selection-end-column="166" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/extras/detalhes.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9172662" vertical-offset="0" max-vertical-offset="1632">
+          <caret line="17" column="166" selection-start-line="17" selection-start-column="166" selection-end-line="17" selection-end-column="166" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/roteiros/detalhes.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.54856116" vertical-offset="205" max-vertical-offset="1513">
+          <caret line="17" column="166" selection-start-line="17" selection-start-column="166" selection-end-line="17" selection-end-column="166" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Observacoes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27517986" vertical-offset="0" max-vertical-offset="556">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/RedirectIfAuthenticated.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.008992806" vertical-offset="5" max-vertical-offset="816">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Authenticate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1438849" vertical-offset="328" max-vertical-offset="884">
+          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/WelcomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.28417265" vertical-offset="158" max-vertical-offset="714">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Services/Registrar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.3147482" vertical-offset="175" max-vertical-offset="731">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.18345323" vertical-offset="102" max-vertical-offset="884">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.24770643" vertical-offset="135" max-vertical-offset="680">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3119266" vertical-offset="0" max-vertical-offset="901">
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.65688074" vertical-offset="3110" max-vertical-offset="3655">
+          <caret line="204" column="8" selection-start-line="204" selection-start-column="8" selection-end-line="204" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/.buildpacks">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.058419243" vertical-offset="0" max-vertical-offset="582">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23817864" vertical-offset="0" max-vertical-offset="571">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+>>>>>>> origin/master
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="582">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="42" />
+=======
+    <entry file="file://$PROJECT_DIR$/.buildpacks">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.058419243" vertical-offset="0" max-vertical-offset="582">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+>>>>>>> origin/master
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/database/Script SQL/Insert_World_Cidades.sql">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48387095" vertical-offset="0" max-vertical-offset="21794">
+          <caret line="1" column="1956" selection-start-line="1" selection-start-column="1956" selection-end-line="1" selection-end-column="1956" />
+=======
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="582">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="42" />
+>>>>>>> origin/master
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/resources/views/lembretes/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33633092" vertical-offset="0" max-vertical-offset="901">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+=======
+    <entry file="file://$PROJECT_DIR$/database/Script SQL/Insert_World_Cidades.sql">
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48387095" vertical-offset="0" max-vertical-offset="21794">
+          <caret line="1" column="1956" selection-start-line="1" selection-start-column="1956" selection-end-line="1" selection-end-column="1956" />
+>>>>>>> origin/master
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/resources/views/passeios/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1785">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/resources/views/lembretes/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33633092" vertical-offset="0" max-vertical-offset="901">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+>>>>>>> origin/master
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/resources/views/passeios/editPasseioCliente.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1309">
+=======
+    <entry file="file://$PROJECT_DIR$/resources/views/passeios/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1785">
+>>>>>>> origin/master
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/resources/views/passeios/editPasseioOrcamento.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1139">
+=======
+    <entry file="file://$PROJECT_DIR$/resources/views/passeios/editPasseioCliente.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1309">
+>>>>>>> origin/master
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/resources/views/passeios/createPasseioCliente.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4586331" vertical-offset="0" max-vertical-offset="2091">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="35" />
+=======
+    <entry file="file://$PROJECT_DIR$/resources/views/passeios/editPasseioOrcamento.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1139">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> origin/master
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/ObservacoesRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33633092" vertical-offset="0" max-vertical-offset="595">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+=======
+    <entry file="file://$PROJECT_DIR$/resources/views/passeios/createPasseioCliente.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4586331" vertical-offset="0" max-vertical-offset="2091">
+          <caret line="15" column="35" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="35" />
+>>>>>>> origin/master
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ClientesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8866907" vertical-offset="306" max-vertical-offset="3417">
+          <caret line="62" column="168" selection-start-line="62" selection-start-column="41" selection-end-line="62" selection-end-column="168" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/ObservacoesRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33633092" vertical-offset="0" max-vertical-offset="595">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+>>>>>>> origin/master
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.6923075" vertical-offset="497" max-vertical-offset="6137">
+          <caret line="50" column="7" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ClientesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8866907" vertical-offset="306" max-vertical-offset="3417">
+          <caret line="62" column="168" selection-start-line="62" selection-start-column="41" selection-end-line="62" selection-end-column="168" />
+>>>>>>> origin/master
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/resources/views/situacoes/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="663">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.6923075" vertical-offset="497" max-vertical-offset="6137">
+          <caret line="50" column="7" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
+>>>>>>> origin/master
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SituacaoController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46582735" vertical-offset="234" max-vertical-offset="816">
+          <caret line="33" column="5" selection-start-line="29" selection-start-column="4" selection-end-line="33" selection-end-column="5" />
+=======
+    <entry file="file://$PROJECT_DIR$/resources/views/situacoes/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="663">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+>>>>>>> origin/master
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PasseiosController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4028777" vertical-offset="218" max-vertical-offset="2720">
+          <caret line="32" column="32" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="32" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SituacaoController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46582735" vertical-offset="234" max-vertical-offset="816">
+          <caret line="33" column="5" selection-start-line="29" selection-start-column="4" selection-end-line="33" selection-end-column="5" />
+>>>>>>> origin/master
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TrensController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.64748204" vertical-offset="1459" max-vertical-offset="2720">
+          <caret line="113" column="34" selection-start-line="113" selection-start-column="8" selection-end-line="113" selection-end-column="34" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PasseiosController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4028777" vertical-offset="218" max-vertical-offset="2720">
+          <caret line="32" column="32" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="32" />
+>>>>>>> origin/master
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ObservacoesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.7307692" vertical-offset="617" max-vertical-offset="1258">
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+          <folding>
+            <element signature="e#39#56#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/observacoes/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="833">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/observacoes/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6243094" vertical-offset="885" max-vertical-offset="2210">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TrensController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.64748204" vertical-offset="1459" max-vertical-offset="2720">
+          <caret line="113" column="34" selection-start-line="113" selection-start-column="8" selection-end-line="113" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ObservacoesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.7307692" vertical-offset="617" max-vertical-offset="1258">
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+          <folding>
+            <element signature="e#39#56#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/observacoes/edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="833">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+>>>>>>> origin/master
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/resources/views/passeios/detalhes.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9388489" vertical-offset="702" max-vertical-offset="1683">
+          <caret line="59" column="114" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="114" />
+=======
+    <entry file="file://$PROJECT_DIR$/resources/views/observacoes/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6243094" vertical-offset="885" max-vertical-offset="2210">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+>>>>>>> origin/master
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/resources/views/clientes/detalhes.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6115108" vertical-offset="2737" max-vertical-offset="20366">
+          <caret line="164" column="16" selection-start-line="164" selection-start-column="16" selection-end-line="164" selection-end-column="27" />
+=======
+    <entry file="file://$PROJECT_DIR$/resources/views/passeios/detalhes.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9388489" vertical-offset="702" max-vertical-offset="1683">
+          <caret line="59" column="114" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="114" />
+>>>>>>> origin/master
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/resources/views/lembretes/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38848922" vertical-offset="396" max-vertical-offset="1972">
+          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+=======
+    <entry file="file://$PROJECT_DIR$/resources/views/clientes/detalhes.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6115108" vertical-offset="2737" max-vertical-offset="20366">
+          <caret line="164" column="16" selection-start-line="164" selection-start-column="16" selection-end-line="164" selection-end-column="27" />
+>>>>>>> origin/master
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/resources/views/clientes/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.091726616" vertical-offset="0" max-vertical-offset="4131">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/resources/views/lembretes/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.38848922" vertical-offset="396" max-vertical-offset="1972">
+          <caret line="32" column="12" selection-start-line="32" selection-start-column="12" selection-end-line="32" selection-end-column="12" />
+>>>>>>> origin/master
+          <folding />
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23367697" vertical-offset="0" max-vertical-offset="582">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/resources/views/clientes/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48920864" vertical-offset="0" max-vertical-offset="4131">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+>>>>>>> origin/master
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

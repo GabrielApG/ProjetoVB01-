@@ -1,0 +1,44 @@
+.logo {
+    background-image: url("../img/logoAS.png");
+    position: absolute;
+    left: 110px;
+    top: 63px;
+    width: 192px;
+    height: 72px;
+    z-index: 5;
+}
+
+.tel {
+    font-size: 11px;
+    font-family: "Myriad Pro";
+    color: rgb(138, 138, 138);
+    line-height: 1.2;
+    text-align: left;
+    left: 845px;
+    top: -15px;
+    z-index: 4;
+    position: relative;
+}
+
+.titulo {
+    font-size: 35px;
+    font-family: "Myriad Pro";
+    color: rgb(138, 138, 138);
+    line-height: 1.2;
+    text-align: left;
+    -moz-transform: matrix( 1.20826537009271,0,0,1.30665281638077,0,0);
+    -webkit-transform: matrix( 1.20826537009271,0,0,1.30665281638077,0,0);
+    -ms-transform: matrix( 1.20826537009271,0,0,1.30665281638077,0,0);
+    position: relative;
+    left: 160px;
+    top: -45px;
+    z-index: 3;
+}
+
+.nomeCliente{
+
+    top: -50px;
+    font-size: 23px;
+    color: rgb(138, 138, 138);
+
+}
