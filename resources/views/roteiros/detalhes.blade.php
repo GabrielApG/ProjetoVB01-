@@ -26,7 +26,7 @@
 
     <table class="table table-striped table-bordered table-hover">
         <tr>
-            <th colspan="7">Roteiros do Pacote {{$clientes->nome}}</th>
+            <th colspan="8">Roteiros do Pacote {{$clientes->nome}}</th>
         </tr>
         <tr>
             <th>ID</th>
@@ -34,6 +34,7 @@
             <th>Cidade</th>
             <th>Nome</th>
             <th>Descrição</th>
+            <th>Data</th>
             <th colspan="2">Ações</th>
         </tr>
         @foreach($clientes->roteiros as $r)
@@ -44,6 +45,7 @@
                 <td>{{$r->cidades->nome}}</td>
                 <td>{{$r->nome}}</td>
                 <td>{{$r->descricao}}</td>
+                <td>{{$r->data}}</td>
                 <td class="acoes">
                     <a href="{{route('roteiros.edit',['roteiros_id'=>$r->id])}}" name="edit" class="btn-xs btn-warning"><span class="glyphicon glyphicon-pencil"></span> </a>
                 </td>

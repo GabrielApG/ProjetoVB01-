@@ -27,7 +27,7 @@
         <div class="form-group">
             <label for="precoCreateTranferCliente" class="col-md-2 control-label">Nome <span class="campo_obrigatorio">*</span></label>
             <div class="col-sm-5">
-                <input name="nome" id="nome" class="form-control" readonly>
+                <input name="nome" id="nome" class="form-control">
             </div>
         </div>
 
@@ -35,14 +35,14 @@
         <div class="form-group">
             <label for="descricaoCreatePacotes" class="col-md-2 control-label">Descrição <span class="campo_obrigatorio">*</span></label>
             <div class="col-sm-8">
-                <textarea class="form-control" name="descricao" id="descricao" readonly></textarea>
+                <textarea class="form-control" name="descricao" id="descricao"></textarea>
             </div>
         </div>
 
         <div class="form-group">
             <label for="precoCreateTranferCliente" class="col-md-2 control-label">Data<span class="campo_obrigatorio">*</span></label>
             <div class="col-sm-2">
-                <input type="text" name="data" id="data" class="form-control" placeholder="99/99/9999"/>
+                <input type="text" name="data" id="data" class="form-control" placeholder="9999-99-99"/>
             </div>
         </div>
 

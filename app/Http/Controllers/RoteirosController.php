@@ -86,7 +86,7 @@ class RoteirosController extends Controller {
         $t = $this->roteirosModel->create($request->all());
         $t->clientes()->attach($clientes_id);
 
-        return redirect()->back();
+        return redirect('admin/roteiros/'.$clientes_id.'/detalhes');
     }
 
     public function storeDetach($id)

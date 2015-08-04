@@ -28,14 +28,15 @@ class RelatoriosController extends Controller {
         return view('relatorios.orcamento', compact('clientes'));
     }
 
-    public function checklist($id)
+    public function roteiro($id)
     {
         $clientes = Clientes::find($id);
-        return view('relatorios.checklist', compact('clientes'));
+        return view('relatorios.roteiro', compact('clientes'));
     }
 
     public function pdfCompra($id)
     {
+
         $clientes = Clientes::find($id);
 
         $total = 0;
@@ -220,12 +221,12 @@ class RelatoriosController extends Controller {
                 .table-bordered > thead > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > tfoot > tr > td {
                     border: 1px solid #ddd; }
                 .table-bordered > thead > tr > th, .table-bordered > thead > tr > td {
-                    border-bottom-width: 2px; }
+                    border-bottom-width: 2px;
                 border: 1px solid #ddd; }
                 .table-bordered > thead > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > tfoot > tr > td {
                     border: 1px solid #ddd; }
                 .table-bordered > thead > tr > th, .table-bordered > thead > tr > td {
-                    border-bottom-width: 2px; }
+                    border-bottom-width: 2px;
                 border: 1px solid #ddd; }
                 .table-bordered > thead > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > tfoot > tr > td {
                     border: 1px solid #ddd; }
@@ -583,13 +584,43 @@ class RelatoriosController extends Controller {
         </div>
     </div>';
 
-        $html .= '</body></html>';
+        $html .= '</body>';
+
+        $html .='</html>';
+
+        $html .= '<script type="text/javascript">';
+
+        echo "function formatReal(mixed) {
+            var int = parseInt(mixed.toFixed(2).toString().replace(/[^]+/g, ''));
+            var tmp = int + '';
+            tmp = tmp.replace(/([0-9]{2})$/g, ",'$1'.");
+
+            if (tmp.length > 6)
+                tmp = tmp.replace(/([0-9]{3}),([0-9]{2}$)/g, ".'$1,$2'.");
+
+            return tmp;
+        }";
+
+
+        echo "var valorTotal =" .$total;
+
+        echo "$('input[name=valor]').val('R$ '+formatReal(valorTotal));";
+        echo "$('input[name=valor2]').val('R$ '+formatReal(valorTotal / 2));";
+        echo "$('input[name=valor3]').val('R$ '+formatReal(valorTotal / 3));";
+        echo "$('input[name=valor5]').val('R$ '+formatReal(valorTotal / 5));";
+        echo "$('input[name=valor6]').val('R$ '+formatReal(valorTotal / 6));";
+        echo "alert('OK');";
+
         $pdf->loadHTML($html);
         return $pdf->stream();
     }
 
     public function pdfOrcamento($id)
     {
+
+        echo " <script type=".'text/javascript'."> alert('Teste OK'); </script>";
+
+
         $clientes = Clientes::find($id);
 
         $total = 0;
