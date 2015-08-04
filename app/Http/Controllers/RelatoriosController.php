@@ -58,6 +58,7 @@ class RelatoriosController extends Controller {
                 $contVoo++;
             }
         }
+
         foreach($clientes->voos as $v){
             if($v->orcamento == 0 && $v->principal == 'Sim'){
                 $valorVoosPrincipais = $valorVoosPrincipais + $v->valor;
@@ -84,10 +85,13 @@ class RelatoriosController extends Controller {
         }
         foreach($clientes->hoteis as $hotel){
             if($hotel->orcamento == 0){
-                //$total = $total + $hotel->valor;
                 $contHoteis++;
                 $contAdultos = $hotel->qtd_adultos;
-                $valorHotel = ($hotel->valor * $hotel->diarias) / $hotel->qtd_adultos + $hotel->valor_extra;
+                $contCriancas = $hotel->qtd_criancas;
+                $valorHotel = $hotel->valor;
+
+                $valorHotel = ($valorHotel / $hotel->qtd_adultos) * $hotel->diarias + $hotel->valor_extra;
+
                 $total = $total + $valorHotel;
             }
         }
@@ -482,38 +486,6 @@ class RelatoriosController extends Controller {
             }};
         '</table>';
 
-        $numberFormatter = new \NumberFormatter('pt_BR', \NumberFormatter::DECIMAL);
-
-        $t = $numberFormatter->parse($total);
-
-        $total2 = $t / 2;
-        $total3 = $t / 3;
-        $total5 = $t / 5;
-        $total6 = $t / 6;
-
-
-        $formatValorTotalPacote2 = $total2;
-        $formatValorTotalPacote3 = $total3;
-        $formatValorTotalPacote5 = $total5;
-        $formatValorTotalPacote6 = $total6;
-
-        //Formatação Valor Voos Principais
-
-        $tPrincipal = $numberFormatter->parse($valorVoosPrincipais);
-
-
-        $total2p = $tPrincipal / 2;
-        $total3p = $tPrincipal / 3;
-        $total5p = $tPrincipal / 5;
-        $total10p = $tPrincipal / 6;
-
-
-        $formatValorTotalPrincipal2 = $total2p;
-        $formatValorTotalPrincipal3 = $total3p;
-        $formatValorTotalPrincipal5 = $total5p;
-        $formatValorTotalPrincipal10 = $total10p;
-
-
         $html.='
         <div class ="row">
          <div class="col-md-4 table-responsive">
@@ -530,34 +502,34 @@ class RelatoriosController extends Controller {
                         <input type="checkbox" id="2A" name="2A" value="Sim">
                     </td>
                     <td>2 Vezes</td>
-                    <td>'.$formatValorTotalPrincipal2.'</td>
+                    <td><input name="valor6" id="valor6" class="text-center" readonly/></td>
                 </tr>
                 <tr>
                     <td>
                         <input type="checkbox" id="3A" name="3A" value="Sim">
                     </td>
                     <td>3 Vezes</td>
-                    <td>'.$formatValorTotalPrincipal3.'</td>
+                    <td><input name="valor6" id="valor6" class="text-center" readonly/></td>
                 </tr>
                 <tr>
                     <td>
                          <input type="checkbox" id="5A" name="5A" value="Sim">
                     </td>
                     <td>5 Vezes</td>
-                    <td>'.$formatValorTotalPrincipal5.'</td>
+                    <td><input name="valor6" id="valor6" class="text-center" readonly/></td>
                 </tr>
                 <tr>
                     <td>
                         <input type="checkbox" id="10A" name="10A" value="Sim">
                     </td>
                     <td>10 Vezes</td>
-                    <td>'.$formatValorTotalPrincipal10.'</td>
+                    <td><input name="valor6" id="valor6" class="text-center" readonly/></td>
                 </tr>
                 <tr>
                     <td>
                         Total
                     </td>
-                    <td id="valorAereo" colspan="2">R$'. $valorVoosPrincipais.'</td>
+                    <td id="valorAereo" colspan="2"><input name="valor6" id="valor6" class="text-center" readonly/></td>
                 </tr>
                 </tbody>
             </table>
@@ -577,34 +549,34 @@ class RelatoriosController extends Controller {
                         <input type="checkbox" name="2P" id="2P" value="Sim">
                     </td>
                     <td>2 Vezes</td>
-                    <td>R$ '.$formatValorTotalPacote2.'</td>
+                    <td><input name="valor6" id="valor6" class="text-center" readonly/></td>
                 </tr>
                 <tr>
                     <td>
                         <input type="checkbox" name="3P" id="3P" value="Sim">
                     </td>
                     <td>3 Vezes</td>
-                    <td>R$ '.$formatValorTotalPacote3.'</td>
+                    <td><input name="valor6" id="valor6" class="text-center" readonly/></td>
                 </tr>
                 <tr>
                     <td>
                         <input type="checkbox" name="5P" id="5P" value="Sim">
                     </td>
                     <td>5 Vezes</td>
-                    <td>R$ '.$formatValorTotalPacote5.'</td>
+                    <td><input name="valor6" id="valor6" class="text-center" readonly/></td>
                 </tr>
                 <tr>
                     <td>
                         <input type="checkbox" name="6P" id="6P" value="Sim">
                     </td>
                     <td>6 Vezes</td>
-                    <td>R$ '.$formatValorTotalPacote6.'</td>
+                    <td><input name="valor6" id="valor6" class="text-center" readonly/></td>
                 </tr>
                 <tr>
                     <td>
                         Total
                     </td>
-                    <td id="totalPaccote" colspan="2">R$ '.$total.'</td>
+                    <td id="totalPaccote" colspan="2"><input name="valor6" id="valor6" class="text-center" readonly/></td>
                 </tr>
                 </tbody>
             </table>
@@ -806,7 +778,40 @@ class RelatoriosController extends Controller {
 
         $html .= '<h3 class="text-right">Valor Total <span class="label label-default">R$'.$total.'</span> </h3>';
 
-        $html .= '</body></html>';
+        $html .= '</body>';
+
+        $html .='</html>';
+
+        $html .= '<script type="text/javascript">';
+
+        echo "function formatReal(mixed) {
+            var int = parseInt(mixed.toFixed(2).toString().replace(/[^]+/g, ''));
+            var tmp = int + '';
+            tmp = tmp.replace(/([0-9]{2})$/g, ",'$1'.");
+
+            if (tmp.length > 6)
+                tmp = tmp.replace(/([0-9]{3}),([0-9]{2}$)/g, ".'$1,$2'.");
+
+            return tmp;
+        }";
+
+
+        echo "var valorTotal =" .$total;
+
+        echo "$('input[name=valor]').val('R$ '+formatReal(valorTotal));";
+        echo "$('input[name=valor2]').val('R$ '+formatReal(valorTotal / 2));";
+        echo "$('input[name=valor3]').val('R$ '+formatReal(valorTotal / 3));";
+        echo "$('input[name=valor5]').val('R$ '+formatReal(valorTotal / 5));";
+        echo "$('input[name=valor6]').val('R$ '+formatReal(valorTotal / 6));";
+        echo "alert('OK');";
+
+
+
+$html .= '</script>';
+
+
+
+
         $pdf->loadHTML($html);
         return $pdf->stream();
     }

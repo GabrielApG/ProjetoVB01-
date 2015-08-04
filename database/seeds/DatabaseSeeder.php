@@ -9,13 +9,13 @@ class DatabaseSeeder extends Seeder {
 	{
 		Model::unguard();
 
-        //$this->call('SituacoesTableSeeder');
-        //$this->call('CategoriasTableSeeder');
-        //$this->call('PacotesTableSeeder');
-        //$this->call('ClientesTableSeeder');
+        $this->call('SituacoesTableSeeder');
+        $this->call('CategoriasTableSeeder');
+        $this->call('PacotesTableSeeder');
+        $this->call('ClientesTableSeeder');
         // $this->call('VoosTableSeeder');// Não funciona
 
-        DB::statement(file_get_contents(__DIR__ . '/../scriptsql/Insert_World_Cidades.sql'));
+        //DB::statement(file_get_contents(__DIR__ . '/../scriptsql/Insert_World_Cidades.sql'));
 
 	}
 

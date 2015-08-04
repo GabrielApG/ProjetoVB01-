@@ -27,6 +27,7 @@ foreach($clientes->voos as $v){
         $contVoo++;
     }
 }
+
 foreach($clientes->voos as $v){
     if($v->orcamento == 0 && $v->principal == 'Sim'){
         $valorVoosPrincipais = $valorVoosPrincipais + $v->valor;
@@ -53,10 +54,13 @@ foreach($clientes->passeios as $passeio){
 }
 foreach($clientes->hoteis as $hotel){
     if($hotel->orcamento == 0){
-        //$total = $total + $hotel->valor;
         $contHoteis++;
         $contAdultos = $hotel->qtd_adultos;
-        $valorHotel = ($hotel->valor * $hotel->diarias) / $hotel->qtd_adultos + $hotel->valor_extra;
+        $contCriancas = $hotel->qtd_criancas;
+        $valorHotel = $hotel->valor;
+
+        $valorHotel = ($valorHotel / $hotel->qtd_adultos) * $hotel->diarias + $hotel->valor_extra;
+
         $total = $total + $valorHotel;
     }
 }
@@ -303,43 +307,6 @@ foreach($clientes->roteiros as $roteiro){
     </table>
     <br/><br/>
 
-   <?php
-
-
-        $numberFormatter = new \NumberFormatter('pt_BR', \NumberFormatter::DECIMAL);
-
-        $t = $numberFormatter->parse($total);
-
-        $total2 = $t / 2;
-        $total3 = $t / 3;
-        $total5 = $t / 5;
-        $total6 = $t / 6;
-
-
-        $formatValorTotalPacote2 = $total2;
-        $formatValorTotalPacote3 = $total3;
-        $formatValorTotalPacote5 = $total5;
-        $formatValorTotalPacote6 = $total6;
-
-        //Formatação Valor Voos Principais
-
-        $tPrincipal = $numberFormatter->parse($valorVoosPrincipais);
-
-
-        $total2p = $tPrincipal / 2;
-        $total3p = $tPrincipal / 3;
-        $total5p = $tPrincipal / 5;
-        $total10p = $tPrincipal / 6;
-
-
-        $formatValorTotalPrincipal2 = $total2p;
-        $formatValorTotalPrincipal3 = $total3p;
-        $formatValorTotalPrincipal5 = $total5p;
-        $formatValorTotalPrincipal10 = $total10p;
-
-
-    ?>
-
     <div class ="row">
         <div class="col-md-4 table-responsive">
             <table class="table table-hover">
@@ -356,34 +323,34 @@ foreach($clientes->roteiros as $roteiro){
                         <input type="checkbox" id="2A" name="2A" value="Sim">
                     </td>
                     <td>2 Vezes</td>
-                    <td>{{$formatValorTotalPrincipal2}}</td>
+                    <td><input name="valor2V" id="valor2V" class="text-center" readonly/></td>
                 </tr>
                 <tr>
                     <td>
                         <input type="checkbox" id="3A" name="3A" value="Sim">
                     </td>
                     <td>3 Vezes</td>
-                    <td>{{$formatValorTotalPrincipal3}}</td>
+                    <td><input name="valor3V" id="valor3V" class="text-center" readonly/></td>
                 </tr>
                 <tr>
                     <td>
                          <input type="checkbox" id="5A" name="5A" value="Sim">
                     </td>
                     <td>5 Vezes</td>
-                    <td>{{$formatValorTotalPrincipal5}}</td>
+                    <td><input name="valor5V" id="valor5V" class="text-center" readonly/></td>
                 </tr>
                 <tr>
                     <td>
                         <input type="checkbox" id="10A" name="10A" value="Sim">
                     </td>
                     <td>10 Vezes</td>
-                    <td>{{$formatValorTotalPrincipal10}}</td>
+                    <td><input name="valor10V" id="valor10V" class="text-center" readonly/></td>
                 </tr>
                 <tr>
                     <td>
                         Total
                     </td>
-                    <td id="valorAereo" colspan="2">R$ {{$valorVoosPrincipais}}</td>
+                    <td id="valorAereo" colspan="2"><input name="valorV" id="valorV" class="text-center" readonly/></td>
                 </tr>
                 </tbody>
             </table>
@@ -404,40 +371,39 @@ foreach($clientes->roteiros as $roteiro){
                         <input type="checkbox" name="2P" id="2P" value="Sim">
                     </td>
                     <td>2 Vezes</td>
-                    <td>R$ {{$formatValorTotalPacote2}}</td>
+                    <td><input name="valor2" id="valor2" class="text-center" readonly/></td>
                 </tr>
                 <tr>
                     <td>
                         <input type="checkbox" name="3P" id="3P" value="Sim">
                     </td>
                     <td>3 Vezes</td>
-                    <td>R$ {{$formatValorTotalPacote3}}</td>
+                    <td><input name="valor3" id="valor3" class="text-center" readonly/></td>
                 </tr>
                 <tr>
                     <td>
                         <input type="checkbox" name="5P" id="5P" value="Sim">
                     </td>
                     <td>5 Vezes</td>
-                    <td>R$ {{$formatValorTotalPacote5}}</td>
+                    <td><input name="valor5" id="valor5" class="text-center" readonly/></td>
                 </tr>
                 <tr>
                     <td>
                         <input type="checkbox" name="6P" id="6P" value="Sim">
                     </td>
                     <td>6 Vezes</td>
-                    <td>R$ {{$formatValorTotalPacote6}}</td>
+                    <td><input name="valor6" id="valor6" class="text-center" readonly/></td>
                 </tr>
                 <tr>
                     <td>
                         Total
                     </td>
-                    <td id="totalPaccote" colspan="2">R$ {{$total}}</td>
+                    <td id="totalPacote" colspan="2"><input name="valor" id="valor" class="text-center" readonly/></td>
                 </tr>
                 </tbody>
             </table>
         </div>
     </div>
-
 
     <a onclick="goBack()" class="btn-sm btn-primary"><span class="glyphicon glyphicon-circle-arrow-left"></span> Voltar</a>
     {{--<a onclick="" class="btn-sm btn-info"><span class="glyphicon glyphicon-envelope"></span> Enviar por e-mail</a>--}}
@@ -500,6 +466,51 @@ foreach($clientes->roteiros as $roteiro){
 
         });
 
+
+        var test = 'R$ 1500';
+        function getMoney( num )
+        {
+            var str = num.toString();
+
+            return parseInt( str.replace(/[\D]+/g,'') );
+        }
+
+        function formatReal(mixed) {
+            var int = parseInt(mixed.toFixed(2).toString().replace(/[^\d]+/g, ''));
+            var tmp = int + '';
+            tmp = tmp.replace(/([0-9]{2})$/g, ",$1");
+            if (tmp.length > 6)
+                tmp = tmp.replace(/([0-9]{3}),([0-9]{2}$)/g, ".$1,$2");
+
+            return tmp;
+        }
+
+        var int = getMoney( test );
+        //alert( int );
+
+//        console.log( formatReal( 1000 ) );
+//        console.log( formatReal( 19990020 ) );
+//        console.log( formatReal( 12006 ) );
+//        console.log( formatReal( 111090 ) );
+//        console.log( formatReal( 1111 ) );
+//        console.log( formatReal( 120090 ) );
+//        console.log( formatReal( int ) );
+
+        var valorTotal = <?php echo $total; ?>
+
+        $('input[name=valor]').val('R$ '+formatReal(valorTotal));
+        $('input[name=valor2]').val('R$ '+formatReal(valorTotal / 2));
+        $('input[name=valor3]').val('R$ '+formatReal(valorTotal / 3));
+        $('input[name=valor5]').val('R$ '+formatReal(valorTotal / 5));
+        $('input[name=valor6]').val('R$ '+formatReal(valorTotal / 6));
+
+        var valorVoosPrin = <?php echo $valorVoosPrincipais; ?>
+
+        $('input[name=valorV]').val('R$ '+formatReal(valorVoosPrin));
+        $('input[name=valor2V]').val('R$ '+formatReal(valorVoosPrin / 2));
+        $('input[name=valor3V]').val('R$ '+formatReal(valorVoosPrin / 3));
+        $('input[name=valor5V]').val('R$ '+formatReal(valorVoosPrin / 5));
+        $('input[name=valor10V]').val('R$ '+formatReal(valorVoosPrin / 10));
 
 
     </script>

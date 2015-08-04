@@ -57,12 +57,12 @@
     }
     foreach($clientes->hoteis as $hotel){
         if($hotel->orcamento == 0){
-            //$total = $total + $hotel->valor;
             $contHoteis++;
             $contAdultos = $hotel->qtd_adultos;
             $contCriancas = $hotel->qtd_criancas;
             $valorHotel = $hotel->valor;
-            $valorHotel = $valorHotel * ($contAdultos + $contCriancas);
+
+            $valorHotel = ($valorHotel / $hotel->qtd_adultos) * $hotel->diarias + $hotel->valor_extra;
 
             $total = $total + $valorHotel;
         }
@@ -339,19 +339,18 @@
 
                     }else if($h->diarias == 0){
 
-                        echo ($h->valor) / $h->qtd_adultos + $h->valor_extra;
+                        echo ($h->valor / $h->qtd_adultos) + $h->valor_extra;
 
                     }else if($h->qtd_adultos == 0){
 
-                        echo ($h->valor * $h->diarias) / $h->valor_extra;
+                        echo ($h->valor / $h->qtd_adultos) * $h->diarias;
                     }
                     else if($h->valor_extra == 0){
 
-                        echo ($h->valor * $h->diarias) / $h->qtd_adultos;
+                        echo ($h->valor / $h->qtd_adultos) * $h->diarias;
                     }
                     else{
-
-                         echo ($h->valor * $h->diarias) / $h->qtd_adultos + $h->valor_extra;
+                         echo ($h->valor / $h->qtd_adultos) * $h->diarias + $h->valor_extra;
                     }
                 ?>
             </td>
