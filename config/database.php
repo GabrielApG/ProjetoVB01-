@@ -26,9 +26,11 @@ return [
 	|
 	*/
 
-	//'default' => env('DB_DRIVER', 'mysql'),
+	//'default' => env('DB_DRIVER', 'pgsql'),
 
     'default' => env('DB_DRIVER', 'mysql'),
+
+    //'default' => 'mysql',
 
 	/*
 	|--------------------------------------------------------------------------

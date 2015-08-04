@@ -11,8 +11,8 @@ class CreateClientesTable extends Migration {
 		{
             $table->increments('id');
             $table->string('nome', 100);
-            $table->integer('telefone');
-            $table->date('data_nasc');
+            $table->string('telefone');
+            $table->date('data_nasc')->default(null);
             $table->string('email', 100);
             $table->string('cep', 100);
             $table->string('endereco', 100);
@@ -24,10 +24,10 @@ class CreateClientesTable extends Migration {
             $table->string('cpf',11);
             $table->string('identidade',9);
             $table->string('orgao_emissor', 15);
-            $table->date('data_exp');
+            $table->date('data_exp')->default(null);
             $table->string('num_passaporte', 8);
-            $table->date('data_emissao_passaporte');
-            $table->date('validade_passaporte');
+            $table->date('data_emissao_passaporte')->default(null);
+            $table->date('validade_passaporte')->default(null);
             $table->string('nome_pai', 100);
             $table->string('nome_mae', 100);
             $table->text('lembretes');
