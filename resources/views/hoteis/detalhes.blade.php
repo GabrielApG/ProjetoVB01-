@@ -27,7 +27,6 @@
     <style>
        #tableHotel {
             font-size: 9px; }
-
     </style>
 
     <table class="table table-striped table-bordered table-hover">

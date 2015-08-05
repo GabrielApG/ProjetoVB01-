@@ -94,7 +94,7 @@ foreach($clientes->roteiros as $roteiro){
         <!-- Voos -->
         <table class="table table-striped table-bordered table-hover">
             <tr>
-                <th colspan="11">VOOS
+                <th colspan="10">VOOS
                     <div class="pull-right">
                         <div class="pull-right">
                             <span class="badge">{{$contVoo}}</span>
@@ -102,7 +102,6 @@ foreach($clientes->roteiros as $roteiro){
                     </div>
                 </th>
             <tr>
-                <th class="cod">ID</th>
                 <th class="nome">Voos</th>
                 <th class="pais">Pais</th>
                 <th class="cidade">Cidade</th>
@@ -117,7 +116,6 @@ foreach($clientes->roteiros as $roteiro){
             @foreach($clientes->voos as $voo)
                 <?php if($voo->orcamento == 0){?>
                 <tr class="text-center">
-                    <td class="cod">{{$voo->id}}</td>
                     <td class="nome">{{$voo->nome_voo}}</td>
                     <td class="pais">{{$voo->cidades->codigo_pais}}</td>
                     <td class="cidade">{{$voo->cidades->nome}}</td>
@@ -135,7 +133,7 @@ foreach($clientes->roteiros as $roteiro){
 
         <!-- Trens -->
         <table class="table table-striped table-bordered table-hover">
-            <th colspan="7">TRENS
+            <th colspan="6">TRENS
                 <div class="pull-right">
                     <div class="pull-right">
                         <span class="badge">{{$contTrem}}</span>
@@ -143,7 +141,6 @@ foreach($clientes->roteiros as $roteiro){
                 </div>
             </th>
             <tr>
-                <th class="cod">ID</th>
                 <th class="nome">Nome</th>
                 <th class="pais">Pais</th>
                 <th class="cidade">Cidade</th>
@@ -155,7 +152,6 @@ foreach($clientes->roteiros as $roteiro){
             @foreach($clientes->trens as $trem)
                 <?php if($trem->orcamento == 0){?>
                 <tr class="text-center">
-                    <td class="cod">{{$trem->id}}</td>
                     <td class="nome">{{$trem->nome}}</td>
                     <td class="pais">{{$trem->cidades->codigo_pais}}</td>
                     <td class="cidade">{{$trem->cidades->nome}}</td>
@@ -170,7 +166,7 @@ foreach($clientes->roteiros as $roteiro){
         <!-- Transfer -->
         <table class="table table-striped table-bordered table-hover">
             <tr>
-                <th colspan="6">TRANSFERS
+                <th colspan="5">TRANSFERS
                     <div class="pull-right">
                         <div class="pull-right">
                             <span class="badge">{{$contTransfer}}</span>
@@ -179,7 +175,6 @@ foreach($clientes->roteiros as $roteiro){
                 </th>
             </tr>
             <tr>
-                <th class="cod">ID</th>
                 <th class="nome">Nome</th>
                 <th class="pais">Pais</th>
                 <th class="cidade">Cidade</th>
@@ -189,7 +184,6 @@ foreach($clientes->roteiros as $roteiro){
             @foreach($clientes->transfers as $transf)
                 <?php if($transf->orcamento == 0){?>
                 <tr class="text-center">
-                    <td class="cod">{{$transf->id}}</td>
                     <td class="nome">{{$transf->nome}}</td>
                     <td class="pais">{{$transf->cidades->codigo_pais}}</td>
                     <td class="cidade">{{$transf->cidades->nome}}</td>
@@ -203,7 +197,7 @@ foreach($clientes->roteiros as $roteiro){
         <!-- Hospedagens -->
         <table class="table table-striped table-bordered table-hover">
             <tr>
-                <th colspan="8">HOSPEDAGENS
+                <th colspan="7">HOSPEDAGENS
                     <div class="pull-right">
                         <div class="pull-right">
                             <span class="badge">{{$contHoteis}}</span>
@@ -211,7 +205,6 @@ foreach($clientes->roteiros as $roteiro){
                     </div>
             </tr>
             <tr>
-                <th class="cod">ID</th>
                 <th class="nome">Hotel</th>
                 <th class="pais">Pais</th>
                 <th class="cidade">Cidade</th>
@@ -223,7 +216,6 @@ foreach($clientes->roteiros as $roteiro){
             @foreach($clientes->hoteis as $h)
                 <?php if($h->orcamento == 0){?>
                 <tr class="text-center" style="font-size:11px;">
-                    <td class="cod">{{$h->id}}</td>
                     <td class="nome">{{$h->nome}}</td>
                     <td class="pais">{{$h->cidades->codigo_pais}}</td>
                     <td class="cidade">{{$h->cidades->nome}}</td>
@@ -239,7 +231,7 @@ foreach($clientes->roteiros as $roteiro){
         <!-- Passeios -->
         <table class="table table-striped table-bordered table-hover">
             <tr>
-                <th colspan="7">PASSEIOS
+                <th colspan="6">PASSEIOS
                     <div class="pull-right">
                         <div class="pull-right">
                             <span class="badge">{{$contPasseio}}</span>
@@ -248,7 +240,6 @@ foreach($clientes->roteiros as $roteiro){
                 </th>
             </tr>
             <tr>
-                <th class="cod">ID</th>
                 <th class="nome">Nome</th>
                 <th class="pais">Pais</th>
                 <th class="cidade">Cidade</th>
@@ -260,7 +251,6 @@ foreach($clientes->roteiros as $roteiro){
             @foreach($clientes->passeios as $p)
                 <?php if($p->orcamento == 0){?>
                 <tr class="text-center">
-                    <td class="cod">{{$p->id}}</td>
                     <td class="nome">{{$p->nome}}</td>
                     <td class="pais">{{$p->cidades->codigo_pais}}</td>
                     <td class="cidade">{{$p->cidades->nome}}</td>
@@ -276,7 +266,7 @@ foreach($clientes->roteiros as $roteiro){
         <!-- Extras-->
         <table class="table table-striped table-bordered table-hover">
             <tr>
-                <th colspan="6"> EXTRAS  <div class="pull-right">
+                <th colspan="5"> EXTRAS  <div class="pull-right">
                         <div class="pull-right">
                             <span class="badge">{{$contExtras}}</span>
                         </div>
@@ -284,10 +274,9 @@ foreach($clientes->roteiros as $roteiro){
                 </th>
             </tr>
             <tr>
-                <th>ID</th>
-                <th>Nome</th>
-                <th>País</th>
-                <th>Cidade</th>
+                <th class="nome">Nome</th>
+                <th class="pais">País</th>
+                <th class="cidade">Cidade</th>
                 <th>Data Saída</th>
                 <th>Hora Ida</th>
             </tr>
@@ -297,10 +286,9 @@ foreach($clientes->roteiros as $roteiro){
             @foreach($clientes->extras as $e)
                 <?php if($e->orcamento == 0){?>
                 <tr class="text-center">
-                    <td>{{ $e->id }}</td>
-                    <td>{{ $e->nome }}</td>
-                    <td>{{ $e->cidades->codigo_pais}}</td>
-                    <td>{{ $e->cidades->nome}}</td>
+                    <td class="nome">{{ $e->nome }}</td>
+                    <td class="pais">{{ $e->cidades->codigo_pais}}</td>
+                    <td class="cidade">{{ $e->cidades->nome}}</td>
                     <td>{{ $e->data_saida }}</td>
                     <td>{{ $e->hora_ida }}</td>
                 </tr>

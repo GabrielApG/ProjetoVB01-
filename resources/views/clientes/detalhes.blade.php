@@ -148,6 +148,10 @@
         {{--</tr>--}}
     {{--</table>--}}
 
+    <style>
+        #td{
+            font-size: 9px; }
+    </style>
 
     <!-- Voos -->
      <table class="table table-striped table-bordered table-hover">
@@ -180,7 +184,7 @@
          @foreach($clientes->voos as $v)
              <?php if($v->orcamento == 0){?>
              <tr class="text-center">
-                 <td class="cod">{{$v->id}}</td>
+                 <td class="cod" id="td">{{$v->id}}</td>
                  <td class="nome">{{$v->nome_voo}}</td>
                  <td class="pais">{{$v->cidades->codigo_pais}}</td>
                  <td class="cidade">{{$v->cidades->nome}}</td>
@@ -369,7 +373,7 @@
     <!-- Passeios -->
     <table class="table table-striped table-bordered table-hover">
         <tr>
-            <th colspan="10">PASSEIOS
+            <th colspan="11">PASSEIOS
                 <div class="pull-right">
                     <div class="pull-right">
                         <a href="#passeio" rel="modal" class="linkadicionadetalhe" role="group" data-toggle="modal" data-target="#passeio" data-whatever="@mdo" >
@@ -489,7 +493,7 @@
                 <td>{{$r->nome}}</td>
                 <td>{{$r->cidades->codigo_pais}}</td>
                 <td>{{$r->cidades->nome}}</td>
-                <td class="text-justify">{{$r->descricao}}</td>
+                <td class="text-justify" id="td">{{$r->descricao}}</td>
                 <td class="acoes">
                     <a href="{{route('roteiros.edit',['roteiros_id'=>$r->id])}}" name="edit" class="btn-xs btn-warning"><span class="glyphicon glyphicon-pencil"></span> </a>
                 </td>

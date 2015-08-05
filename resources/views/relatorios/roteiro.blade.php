@@ -83,20 +83,16 @@ foreach($clientes->roteiros as $roteiro){
 <div class="container"><br/><br/><br/><br/><br/>
 
     <span class="logo">&nbsp;</span>
-
     <span class="tel">tel:(31)9158-9472 email:viajarbaratoamericadosul@gmail.com</span>
-
     <span class="titulo" >Roteiro da Viagem</span>
-
     <legend class="nomeCliente">{{$clientes->nome}}</legend>
     <br/>
 
     <table class="table table-striped table-bordered table-hover">
         <tr>
-            <th colspan="5"><h5>ROTEIROS DA VIAGEM</h5></th>
+            <th colspan="5"><h5><strong> ROTEIROS DA VIAGEM </strong></h5></th>
         </tr>
         <tr>
-            <th class="cod">Cod</th>
             <th class="data">Data</th>
             <th class="cidade">Cidade</th>
             <th class="cidade">Nome</th>
@@ -105,7 +101,6 @@ foreach($clientes->roteiros as $roteiro){
         @foreach($clientes->roteiros as $r)
             <?php if($r->orcamento == 0){?>
             <tr class="text-center">
-                <td>{{$r->id}}</td>
                 <td class="data">{{$r->data}}</td>
                 <td>{{$r->cidades->nome}}</td>
                 <td>{{$r->nome}}</td>
