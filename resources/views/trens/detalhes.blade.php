@@ -24,6 +24,11 @@
     </div>
     <br/>
 
+    <style>
+        #tableVoo {
+            font-size: 9px; }
+    </style>
+
     <table class="table table-striped table-bordered table-hover">
         <tr>
             <th colspan="14">Trens Pessoais {{$clientes->nome}}</th>
@@ -49,18 +54,18 @@
         @foreach($clientes->trens as $trem)
             <?php if($trem->orcamento == 0){?>
             <tr class="text-center">
-                <td>{{ $trem->id }}</td>
-                <td>{{ $trem->nome }}</td>
-                <td>{{ $trem->cidades->codigo_pais}}</td>
-                <td>{{ $trem->cidades->nome}}</td>
-                <td>{{ $trem->destino }}</td>
-                <td>{{ $trem->empresa_trem }}</td>
-                <td>{{$trem->numero}}</td>
-                <td>{{$trem->vagao}}</td>
-                <td>{{$trem->poltrona}}</td>
-                <td>{{ $trem->data_saida }}</td>
-                <td>{{ $trem->hora_ida }}</td>
-                <td>{{ $trem->valor }}</td>
+                <td id="tableVoo">{{ $trem->id }}</td>
+                <td id="tableVoo">{{ $trem->nome }}</td>
+                <td id="tableVoo">{{ $trem->cidades->codigo_pais}}</td>
+                <td id="tableVoo">{{ $trem->cidades->nome}}</td>
+                <td id="tableVoo">{{ $trem->destino }}</td>
+                <td id="tableVoo">{{ $trem->empresa_trem }}</td>
+                <td id="tableVoo">{{$trem->numero}}</td>
+                <td id="tableVoo">{{$trem->vagao}}</td>
+                <td id="tableVoo">{{$trem->poltrona}}</td>
+                <td id="tableVoo">{{ $trem->data_saida }}</td>
+                <td id="tableVoo">{{ $trem->hora_ida }}</td>
+                <td id="tableVoo">{{ $trem->valor }}</td>
                 <td>
                     <a href="{{ route('trens.editTremCliente',['id'=>$trem->id,'idCliente'=>$clientes->id]) }}" name="edit" class="btn-xs btn-warning"><span class="glyphicon glyphicon-pencil"></span> </a>
                 </td>

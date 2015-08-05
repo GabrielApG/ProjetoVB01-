@@ -23,6 +23,11 @@
     </div>
     <br/>
 
+    <style>
+        #tableVoo {
+            font-size: 9px; }
+    </style>
+
     <table class="table table-striped table-bordered table-hover">
         <tr>
             <th colspan="20">Voos Pessoais {{$clientes->nome}}</th>
@@ -53,25 +58,25 @@
 
         @foreach($clientes->voos as $v)
             <?php if($v->orcamento == 0){?>
-            <tr class="text-center" style="font-size:11px;">
-                <td>{{ $v->id }}</td>
-                <td>{{ $v->nome_voo }}</td>
-                <td>{{ $v->cidades->codigo_pais}}</td>
-                <td>{{ $v->cidades->nome}}</td>
-                <td>{{ $v->local_emb }}</td>
-                <td>{{ $v->local_des }}</td>
-                <td>{{ $v->data_ida}}</td>
-                <td>{{ $v->data_volta}}</td>
-                <td>{{ $v->hora_ida}}</td>
-                <td>{{ $v->hora_volta }}</td>
-                <td>{{ $v->empresa_voo }}</td>
-                <td>{{$v->num_bilhete}}</td>
-                <td>{{$v->poltrona}}</td>
-                <td>{{$v->num_voo}}</td>
-                <td>{{$v->escalas}}</td>
-                <td>{{$v->observacao}}</td>
-                <td>{{$v->principal}}</td>
-                <td>{{ $v->valor }}</td>
+            <tr class="text-center" id="tableVoo">
+                <td id="tableVoo">{{ $v->id }}</td>
+                <td id="tableVoo">{{ $v->nome_voo }}</td>
+                <td id="tableVoo">{{ $v->cidades->codigo_pais}}</td>
+                <td id="tableVoo">{{ $v->cidades->nome}}</td>
+                <td id="tableVoo">{{ $v->local_emb }}</td>
+                <td id="tableVoo">{{ $v->local_des }}</td>
+                <td id="tableVoo">{{ $v->data_ida}}</td>
+                <td id="tableVoo">{{ $v->data_volta}}</td>
+                <td id="tableVoo">{{ $v->hora_ida}}</td>
+                <td id="tableVoo">{{ $v->hora_volta }}</td>
+                <td id="tableVoo">{{ $v->empresa_voo }}</td>
+                <td id="tableVoo">{{$v->num_bilhete}}</td>
+                <td id="tableVoo">{{$v->poltrona}}</td>
+                <td id="tableVoo">{{$v->num_voo}}</td>
+                <td id="tableVoo">{{$v->escalas}}</td>
+                <td id="tableVoo">{{$v->observacao}}</td>
+                <td id="tableVoo">{{$v->principal}}</td>
+                <td id="tableVoo">{{ $v->valor }}</td>
                 <td class="acoes">
                     <a href="{{ route('voos.editVooCliente',['id'=>$v->id,'idCliente'=>$clientes->id]) }}" name="edit" class="btn-xs btn-warning"><span class="glyphicon glyphicon-pencil"></span> </a>
                 </td>

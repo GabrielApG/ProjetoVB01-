@@ -24,9 +24,15 @@
     </div>
     <br/>
 
+    <style>
+       #tableHotel {
+            font-size: 9px; }
+
+    </style>
+
     <table class="table table-striped table-bordered table-hover">
         <tr>
-            <th colspan="21">Hoteis {{$clientes->nome}}</th>
+            <th colspan="22">Hoteis {{$clientes->nome}}</th>
         </tr>
         <tr>
             <th>ID</th>
@@ -48,6 +54,7 @@
             <th>Site</th>
             <th>Diárias</th>
             <th>Valor</th>
+            <th>Valor Extra</th>
             <th colspan="2">Ações</th>
         </tr>
         </thead>
@@ -56,25 +63,26 @@
         @foreach($clientes->hoteis as $h)
             <?php if($h->orcamento == 0){?>
             <tr class="text-center" style="font-size:11px;">
-                <td>{{$h->id}}</td>
-                <td>{{$h->nome}}</td>
-                <td>{{$h->num_reserva}}</td>
-                <td>{{$h->telefone}}</td>
-                <td>{{$h->cep}}</td>
-                <td>{{$h->endereco}}</td>
-                <td>{{$h->numero}}</td>
-                <td>{{$h->bairro}}</td>
-                <td>{{$h->estado}}</td>
-                <td>{{$h->status}}</td>
-                <td>{{$h->qtd_adultos}}</td>
-                <td>{{$h->qtd_criancas}}</td>
-                <td>{{$h->data_entrada}}</td>
-                <td>{{$h->data_saida}}</td>
-                <td>{{$h->cafe_manha}}</td>
-                <td>{{$h->wifi}}</td>
-                <td>{{$h->site}}</td>
-                <td>{{$h->diarias}}</td>
-                <td>{{$h->valor}}</td>
+                <td id="tableHotel">{{$h->id}}</td>
+                <td id="tableHotel">{{$h->nome}}</td>
+                <td id="tableHotel">{{$h->num_reserva}}</td>
+                <td id="tableHotel">{{$h->telefone}}</td>
+                <td id="tableHotel">{{$h->cep}}</td>
+                <td id="tableHotel">{{$h->endereco}}</td>
+                <td id="tableHotel">{{$h->numero}}</td>
+                <td id="tableHotel">{{$h->bairro}}</td>
+                <td id="tableHotel">{{$h->estado}}</td>
+                <td id="tableHotel">{{$h->status}}</td>
+                <td id="tableHotel">{{$h->qtd_adultos}}</td>
+                <td id="tableHotel">{{$h->qtd_criancas}}</td>
+                <td id="tableHotel">{{$h->data_entrada}}</td>
+                <td id="tableHotel">{{$h->data_saida}}</td>
+                <td id="tableHotel">{{$h->cafe_manha}}</td>
+                <td id="tableHotel">{{$h->wifi}}</td>
+                <td id="tableHotel">{{$h->site}}</td>
+                <td id="tableHotel">{{$h->diarias}}</td>
+                <td id="tableHotel">{{$h->valor}}</td>
+                <td id="tableHotel">{{$h->valor_extra}}</td>
                 <td class="acoes">
                     <a href="{{ route('hoteis.editHotelCliente',['id'=>$h->id,'idCliente'=>$clientes->id]) }}" name="edit" class="btn-xs btn-warning"><span class="glyphicon glyphicon-pencil"></span> </a>
                 </td>
