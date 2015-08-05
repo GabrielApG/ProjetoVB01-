@@ -253,6 +253,7 @@ foreach($clientes->roteiros as $roteiro){
             <th class="pais">Pais</th>
             <th class="cidade">Cidade</th>
             <th>Empresa</th>
+            <th>Descrição</th>
             <th>Data Saída</th>
             <th>Hora Ida</th>
         </tr>
@@ -264,6 +265,7 @@ foreach($clientes->roteiros as $roteiro){
                 <td class="pais">{{$p->cidades->codigo_pais}}</td>
                 <td class="cidade">{{$p->cidades->nome}}</td>
                 <td>{{$p->empresa_passeio}}</td>
+                <td>{{$p->descricao}}</td>
                 <td>{{$p->data_ida}}</td>
                 <td>{{$p->hora_ida}}</td>
             </tr>

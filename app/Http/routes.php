@@ -235,7 +235,7 @@ Route::group(['prefix'=>'admin', 'middleware'=>'auth','where'=>['id'=>'[0-9]+']]
     });
     // Em desenvolvimento
     Route::group(['prefix'=>'manutencoes','where'=>['id'=>'[0-9]+']], function() {
-        Route::get('',['as'=>'manutencoes', 'uses'=>'AdminController@index']);
+        Route::get('',['as'=>'manutencoes', 'uses'=>'VoosController@index']); //Atenção controlle de Voos
     });
 
     Route::group(['prefix'=>'lembretes','where'=>['id'=>'[0-9]+']], function() {

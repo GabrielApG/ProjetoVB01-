@@ -36,6 +36,7 @@
             <th>Cidade</th>
             <th>Ponto Partida</th>
             <th>Empresa</th>
+            <th>Descrição</th>
             <th>Data Saída</th>
             <th>Hora Ida</th>
             <th>Valor</th>
@@ -53,6 +54,7 @@
                 <td>{{ $p->cidades->nome}}</td>
                 <td>{{ $p->ponto_partida }}</td>
                 <td>{{ $p->empresa_passeio }}</td>
+                <td>{{ $p->descricao }}</td>
                 <td>{{ $p->data_ida }}</td>
                 <td>{{ $p->hora_ida }}</td>
                 <td>{{ $p->valor }}</td>

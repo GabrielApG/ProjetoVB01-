@@ -40,6 +40,7 @@
             <th>País</th>
             <th>Cidade</th>
             <th>Ponto Partida</th>
+            <th>Descrição</th>
             <th>Valor</th>
             <th colspan="2">Ações</th>
         </tr>
@@ -54,6 +55,7 @@
             <td>{{ $p->cidades->codigo_pais}}</td>
             <td>{{ $p->cidades->nome}}</td>
             <td>{{ $p->ponto_partida }}</td>
+            <td>{{ $p->descricao }}</td>
             <td>{{ $p->valor }}</td>
             <td class="acoes">
                 <a href="{{ route('passeios.edit',['id'=>$p->id]) }}" name="edit" class="btn-xs btn-warning"><span class="glyphicon glyphicon-pencil"></span> </a>

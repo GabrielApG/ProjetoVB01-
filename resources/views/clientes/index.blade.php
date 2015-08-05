@@ -13,14 +13,14 @@
 
     @foreach($clientesAll as $c)
         <?php
-        if($c->situacoes->id == 1){
+        if($c->situacoes->nome == 'Aguardando Orçamento'){
              $contSituacao++;
         }
-        if($c->situacoes->id == 2){
+        if($c->situacoes->nome == 'Compra Confirmada'){
             $contCompra++;
         }
 
-        if($c->situacoes->id == 3){
+        if($c->situacoes->nome == 'Em Viagem'){
             $contViagem++;
         }
         ?>

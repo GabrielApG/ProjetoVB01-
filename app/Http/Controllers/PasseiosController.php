@@ -94,7 +94,7 @@ class PasseiosController extends Controller
         $passeios = Passeios::find($id)->update($request->all());
         $idCliente = DB::table('clientes_passeios')->where('passeios_id','=',$id)->pluck('clientes_id');
 
-        return redirect('admin/clientes/'.$idCliente.'/orcamento');
+        return redirect('admin/clientes/'.$idCliente.'/detalhes');
     }
 
     public function storeAttach(PasseiosRequest $request)

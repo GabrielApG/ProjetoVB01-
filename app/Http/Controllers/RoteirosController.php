@@ -52,7 +52,13 @@ class RoteirosController extends Controller {
         $roteiros = Roteiros::find($id)->update($request->all());
         $idCliente = DB::table('clientes_roteiros')->where('roteiros_id','=',$id)->pluck('clientes_id');
 
-        return redirect('admin/roteiros');
+        if( $idCliente == null || $idCliente == ''){ // para direcionamento correto da rota
+
+            return redirect('admin/roteiros');
+
+        }else{
+            return redirect('admin/clientes/'.$idCliente.'/detalhes');
+        }
     }
 
     public function update(RoteirosRequest $request, $id)

@@ -385,6 +385,7 @@
             <th class="pais">Pais</th>
             <th class="cidade">Cidade</th>
             <th>Empresa</th>
+            <th>Descrição</th>
             <th>Data Saída</th>
             <th>Hora Ida</th>
             <th class="valores">Valor R$</th>
@@ -398,6 +399,7 @@
                 <td class="pais">{{$p->cidades->codigo_pais}}</td>
                 <td class="cidade">{{$p->cidades->nome}}</td>
                 <td>{{$p->empresa_passeio}}</td>
+                <td>{{$p->descricao}}</td>
                 <td>{{$p->data_ida}}</td>
                 <td>{{$p->hora_ida}}</td>
                 <td class="valores">R$ {{$p->valor}}</td>
@@ -487,7 +489,7 @@
                 <td>{{$r->nome}}</td>
                 <td>{{$r->cidades->codigo_pais}}</td>
                 <td>{{$r->cidades->nome}}</td>
-                <td>{{$r->descricao}}</td>
+                <td class="text-justify">{{$r->descricao}}</td>
                 <td class="acoes">
                     <a href="{{route('roteiros.edit',['roteiros_id'=>$r->id])}}" name="edit" class="btn-xs btn-warning"><span class="glyphicon glyphicon-pencil"></span> </a>
                 </td>
