@@ -3,7 +3,7 @@
     <title>Relatórios</title>
 </head>
 
-<body>
+<body id="corFundo">
 
 <!-- Calcula o valores do Orçamento / conta Trens-->
 <?php
@@ -80,7 +80,15 @@ foreach($clientes->roteiros as $roteiro){
 
 @extends('app')
 @section('content')
-<div class="container"><br/><br/><br/><br/><br/>
+    <div class="container" id="corFundo2"><br/><br/><br/><br/><br/>
+        <style>
+            #corFundo{
+                background-color: #F5F5F5;
+            }
+            #corFundo2{
+                background-color: #FFFFFF;
+            }
+        </style>
 
     <span class="logo">&nbsp;</span>
     <span class="tel">tel:(31)9158-9472 email:viajarbaratoamericadosul@gmail.com</span>

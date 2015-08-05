@@ -2,13 +2,19 @@
 <head>
     <title>Voos</title>
 </head>
-
-<body>
+<body id="corFundo">
 
 @extends('app')
-
 @section('content')
-<div class="container">
+<div class="container" id="corFundo2">
+    <style>
+        #corFundo{
+            background-color: #F5F5F5;
+        }
+        #corFundo2{
+            background-color: #FFFFFF;
+        }
+    </style>
     <legend><span class="glyphicon glyphicon-tasks"></span> Manutenção Administrativa</legend><br />
     <ul class="nav nav-tabs">
         <li role="presentation" class="active"><a href="{{ route('voos') }}"><span class="glyphicon glyphicon-plane"></span> Voos</a></li>
@@ -28,7 +34,7 @@
         <strong>Atenção!</strong> Os Voos cadastrados aqui, serão disponibilizados apenas para ciclo de orçamento.
     </div>
 
-    <div class="form-group">
+    <div class="form-group" >
     <a href="{{ route('voos.create')}}" class="btn-sm  btn-success"><span class="glyphicon glyphicon-plus-sign"></span> Cadastrar Voo para Orçamento</a>
     </div>
 

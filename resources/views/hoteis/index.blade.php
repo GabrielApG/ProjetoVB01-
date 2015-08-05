@@ -2,13 +2,19 @@
 <head>
     <title>Hoteis</title>
 </head>
-
-<body>
+<body id="corFundo">
 
 @extends('app')
-
 @section('content')
-<div class="container">
+    <div class="container" id="corFundo2">
+        <style>
+            #corFundo{
+                background-color: #F5F5F5;
+            }
+            #corFundo2{
+                background-color: #FFFFFF;
+            }
+        </style>
     <legend><span class="glyphicon glyphicon-tasks"></span> Manutenção Administrativa</legend><br />
     <ul class="nav nav-tabs">
         <li role="presentation"><a href="{{ route('voos') }}"><span class="glyphicon glyphicon-plane"></span> Voos</a></li>

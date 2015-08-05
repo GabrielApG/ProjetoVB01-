@@ -3,7 +3,7 @@
 @section('content')
 
 <div class="container">
-    <legend>Cadastro de Dependente - {{$clientes->nome}}</legend><br />
+    <legend><span class="glyphicon glyphicon-user"></span><span class="glyphicon glyphicon-user"></span> Cadastro de Dependente - {{$clientes->nome}}</legend><br />
 
     @if ($errors->any())
     <ul class="alert alert-warning">
