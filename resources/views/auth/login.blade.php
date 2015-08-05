@@ -1,7 +1,27 @@
-@extends('protegido')
+<html>
+<head>
+    <title>VB</title>
+</head>
 
+<body id="corFundo">
+
+@extends('protegido')
 @section('content')
-<div class="container-fluid">
+    <br/><br/><br/><br/>
+
+
+    <h3 class="text-center"> Faça Login para continuar</h3>
+
+
+    <div class="container-fluid" id="corFundo">
+    <style>
+        #corFundo{
+            background-color: #F5F5F5;
+        }
+        #corFundo2{
+            background-color: #FFFFFF;
+        }
+    </style>
 	<div class="row">
 		<div class="col-md-8 col-md-offset-2">
 			<div class="panel panel-default">
@@ -59,3 +79,6 @@
 	</div>
 </div>
 @endsection
+
+</body>
+</html>
