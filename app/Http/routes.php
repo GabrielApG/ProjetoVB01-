@@ -271,6 +271,7 @@ Route::group(['prefix'=>'admin', 'middleware'=>'auth','where'=>['id'=>'[0-9]+']]
         Route::get('{id}/compra', ['as' => 'compra', 'uses' => 'RelatoriosController@compra']);
         Route::get('{id}/orcamento', ['as' => 'orcamento', 'uses' => 'RelatoriosController@orcamento']);
         Route::get('{id}/checklist', ['as' => 'checklist', 'uses' => 'RelatoriosController@checklist']);
+
         Route::get('{id}/pdfCompra', ['as' => 'pdfCompra', 'uses' => 'RelatoriosController@pdfCompra']);
         Route::get('{id}/pdfOrcamento', ['as' => 'pdfOrcamento', 'uses' => 'RelatoriosController@pdfOrcamento']);
 

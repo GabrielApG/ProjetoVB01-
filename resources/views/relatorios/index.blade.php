@@ -29,7 +29,7 @@
     <div class="col-lg-3 col-md-6">
                 <div class="panel panel-primary">
                     <div class="panel-heading">
-                        <div class="row"> ORÇAMENTO
+                        <div class="row"> RELATÓRIO ORÇAMENTO
                             <div class="col-xs-3">
                                 <i class="glyphicon glyphicon-list fa-3x"></i>
                             </div>
@@ -39,7 +39,7 @@
                             </div>
                         </div>
                     </div>
-                    <a href="{{ route('compra',['id'=>$clientes->id]) }}">
+                    <a href="{{ route('orcamento',['id'=>$clientes->id]) }}">
                         <div class="panel-footer">
                             <span class="pull-left"> Ver Detalhes</span>
                             <span class="pull-right"><i class="glyphicon glyphicon-circle-arrow-right"></i></span>
@@ -53,7 +53,7 @@
     <div class="col-lg-3 col-md-6">
             <div class="panel panel-success">
                 <div class="panel-heading">
-                    <div class="row"> ROTEIROS
+                    <div class="row"> RELATÓRIOS ROTEIROS
                         <div class="col-xs-3">
                             <i class="glyphicon glyphicon-list fa-3x"></i>
                         </div>
@@ -88,7 +88,7 @@
                         </div>
                     </div>
                 </div>
-                <a href="{{ route('checklist',['id'=>$clientes->id]) }}">
+                <a href="{{ route('compra',['id'=>$clientes->id]) }}">
                     <div class="panel-footer">
                         <span class="pull-left"> Ver Detalhes</span>
                         <span class="pull-right"><i class="glyphicon glyphicon-circle-arrow-right"></i></span>
