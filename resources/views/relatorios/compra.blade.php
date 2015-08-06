@@ -127,6 +127,7 @@ foreach($clientes->roteiros as $roteiro){
             <th>Obs.</th>
             <th>Principal</th>
         </tr>
+
         @foreach($clientes->voos as $voo)
             <?php if($voo->orcamento == 0){?>
             <tr class="text-center">
@@ -318,6 +319,8 @@ foreach($clientes->roteiros as $roteiro){
     </table>
     <br/><br/>
 
+    {!! Form::open(['route'=>['pdfCompra', $clientes->id], 'class'=>'form-horizontal', 'method'=>'post']) !!}
+
     <div class ="row">
         <div class="col-md-4 table-responsive">
             <table class="table table-hover">
@@ -418,7 +421,11 @@ foreach($clientes->roteiros as $roteiro){
 
     <a onclick="goBack()" class="btn-sm btn-primary"><span class="glyphicon glyphicon-circle-arrow-left"></span> Voltar</a>
     {{--<a onclick="" class="btn-sm btn-info"><span class="glyphicon glyphicon-envelope"></span> Enviar por e-mail</a>--}}
-    <a href="{{ route('pdfCompra',['id'=>$clientes->id]) }}" class="btn-sm btn-danger"><span class="glyphicon glyphicon-print"></span> Gerar Pdf</a>
+    {{--<a href="{{ route('pdfCompra',['id'=>$clientes->id]) }}" class="btn-sm btn-danger"><span class="glyphicon glyphicon-print"></span> Gerar Pdf</a>--}}
+
+    <button class="btn btn-success"><span class="glyphicon glyphicon-saved"></span> Gerar PDF</button>
+
+    {!! Form::close() !!}
 
     <br/><br/><br/>
 

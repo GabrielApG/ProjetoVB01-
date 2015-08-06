@@ -924,6 +924,7 @@ class RelatoriosController extends Controller {
         <img src="../public/img/cabecalho.jpg" width="688" height="79">
 
         <legend class="nomeCliente">Nome: '.$clientes->nome.'</legend>
+        <legend class="nomeCliente">Nome: ';echo $_POST['valorVoosPrincipais'];$html.='</legend>
 
             <table class="table table-striped table-bordered" border="1px" cellspacing="0px">
             <tr>
