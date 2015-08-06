@@ -9,10 +9,6 @@
 @section('content')
     <br/><br/><br/><br/>
 
-
-    <h3 class="text-center"> Faça Login para continuar</h3>
-
-
     <div class="container-fluid" id="corFundo">
     <style>
         #corFundo{

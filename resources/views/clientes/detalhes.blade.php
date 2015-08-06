@@ -578,7 +578,7 @@
 
                 <div class="form-group">
                     <label name="preco" id="preco">Preço R$: </label>
-                    <input name="valor" id="valor" class="form-control">
+                    <input name="valor" id="valorExtra" class="form-control">
                 </div>
 
                 <div class="modal-footer">
@@ -631,7 +631,7 @@
 
                 <div class="form-group-xs">
                     {!! Form::label('valor', 'Valor R$:') !!}
-                    <input name="valor" id="valor" class="form-control">
+                    <input name="valor" id="valorHotel" class="form-control">
                 </div>
 
                 <div class="form-group-xs"><span class="campo_obrigatorio">
@@ -694,7 +694,7 @@
 
                 <div class="form-group-xs">
                     <label name="preco" id="preco">Valor R$: </label>
-                    <input name="valor" id="valor" class="form-control">
+                    <input name="valor" id="valorPasseio" class="form-control">
                 </div>
 
                 <div class="modal-footer">
@@ -732,7 +732,7 @@
 
                 <div class="form-group-xs">
                     <label name="preco" id="preco">Valor R$: </label>
-                    <input name="valor" id="valor" class="form-control">
+                    <input name="valor" id="valorTransfer" class="form-control">
                 </div>
 
                 <div class="form-group-xs"> <!-- Campo Oculto -->
@@ -778,7 +778,7 @@
 
                 <div class="form-group">
                     <label>Preço: </label>
-                    <input name="valor" id="valor" class="form-control">
+                    <input name="valor" id="valorTrem" class="form-control">
                     <input name="nome" id="nome" class="form-control" type="hidden">
                 </div>
 
@@ -830,7 +830,7 @@
 
                 <div class="form-group-xs">
                     {!! Form::label('valor', 'Valor:(Obrigatório)') !!}
-                    {!! Form::text('valor', null, ['class'=>'form-control']) !!}
+                    <input name="valor" id="valorVoo" class="form-control">
                 </div>
                 <br/>
 
@@ -958,13 +958,13 @@
     // TREM
     $('select[name=trens_id]').change(function () {
         var idTrem = $(this).val();
-        $('input[name=valor]').empty();
+        $('#valorTrem').empty();
         $('input[name=destino]').empty();
         $('input[name=cidades_id]').empty();
         $('input[name=nome]').empty();
         $.get('/get-valor/' + idTrem, function (valor) {
             $.each(valor, function (key, value) {
-                $('input[name=valor]').val(value.valor);
+                $('#valorTrem').val(value.valor);
                 $('input[name=destino]').val(value.destino);
                 $('input[name=cidades_id]').val(value.cidades_id);
                 $('input[name=nome]').val(value.nome);
@@ -978,9 +978,9 @@
         if(t == 0){ // Oculta Btn Submit
             //alert('Selecione um Trem Válido!');
             $("#submit").hide();
-            $("input[name=nome_voo]").val('');
+            $('input[name=nome_voo]').val('');
             $('input[name=cidades_id]').val('');
-            $('input[name=valor]').val('');
+            $('#valorVoo').val('');
             $('input[name=local_emb]').val('');
             $('input[name=local_des]').val('');
         }else{ // Mostra Btn Submit
@@ -990,9 +990,9 @@
 
         $.get('/get-voo/' + idVoo, function (valor) {
             $.each(valor, function (key, value) {
-                $("input[name=nome_voo]").val(value.nome_voo);
+                $('input[name=nome_voo]').val(value.nome_voo);
                 $('input[name=cidades_id]').val(value.cidades_id);
-                $('input[name=valor]').val(value.valor);
+                $('#valorVoo').val(value.valor);
                 $('input[name=local_emb]').val(value.local_emb);
                 $('input[name=local_des]').val(value.local_des);
             });
@@ -1007,7 +1007,7 @@
         if(t == 0){ // Oculta Btn Submit
             //alert('Selecione um Trem Válido!');
             $("#submit").hide();
-            $('input[name=valor]').val('');
+            $('#valorTransfer').val('');
             $('input[name=cidades_id]').val('');
             $("input[name=nome]").val('');
         }else{ // Mostra Btn Submit
@@ -1017,7 +1017,7 @@
         $.get('/get-transf/' + idTransfer, function (valor) {
             $.each(valor, function (key, value) {
 
-                $('input[name=valor]').val(value.valor);
+                $('#valorTransfer').val(value.valor);
                 $('input[name=cidades_id]').val(value.cidades_id);
                 $('input[name=destino]').val(value.destino);
                 $("input[name=nome]").val(value.nome);
@@ -1033,7 +1033,7 @@
         if(t == 0){ // Oculta Btn Submit
             //alert('Selecione um Trem Válido!');
             $("#submit").hide();
-            $('input[name=valor]').val('');
+            $('#valorPasseio').val('');
             $('input[name=cidades_id]').val('');
             $('input[name=ponto_partida]').val('');
             $("input[name=nome]").val('');
@@ -1045,7 +1045,7 @@
 
         $.get('/get-pass/' + idPasseio, function (valor) {
             $.each(valor, function (key, value) {
-                $('input[name=valor]').val(value.valor);
+                $('#valorPasseio').val(value.valor);
                 $('input[name=cidades_id]').val(value.cidades_id);
                 $('input[name=ponto_partida]').val(value.ponto_partida);
                 $("input[name=nome]").val(value.nome);
@@ -1062,7 +1062,7 @@
         if(t == 0){ // Oculta Btn Submit
             //alert('Selecione um Trem Válido!');
             $("#submit").hide();
-            $('input[name=valor]').val('');
+            $('#valorHotel').val('');
             $('input[name=cidades_id]').val('');
             $('input[name=destino]').val('');
             $("input[name=nome]").val('');
@@ -1074,7 +1074,7 @@
         $.get('/get-hot/' + idHotel, function (valor) {
             $.each(valor, function (key, value) {
 
-                $('input[name=valor]').val(value.valor);
+                $('#valorHotel').val(value.valor);
                 $('input[name=cidades_id]').val(value.cidades_id);
                 $('input[name=destino]').val(value.destino);
                 $("input[name=nome]").val(value.nome);
@@ -1089,7 +1089,7 @@
         if(t == 0){ // Oculta Btn Submit
             //alert('Selecione um Trem Válido!');
             $("#submit").hide();
-            $('input[name=valor]').val('');
+            $('#valorExtra').val('');
             $('input[name=cidades_id]').val('');
             $("input[name=nome]").val('');
         }else{ // Mostra Btn Submit
@@ -1099,7 +1099,7 @@
 
         $.get('/get-extra/' + idExtra, function (valor) {
             $.each(valor, function (key, value) {
-                $('input[name=valor]').val(value.valor);
+                $('#valorExtra').val(value.valor);
                 $('input[name=cidades_id]').val(value.cidades_id);
                 $('input[name=destino]').val(value.destino);
                 $("input[name=nome]").val(value.nome);

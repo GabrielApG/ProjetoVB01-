@@ -89,12 +89,12 @@ foreach($clientes->roteiros as $roteiro){
                 background-color: #FFFFFF;
             }
         </style>
-        <span class="logo">&nbsp;</span>
+        <div class="img-responsive">
+            <span class="logo img-responsive">&nbsp;</span>
+        </div>
 
         <span class="tel">tel:(31)9158-9472 email:viajarbaratoamericadosul@gmail.com</span>
-
         <span class="titulo" >Orçamento</span>
-
         <legend class="nomeCliente">{{$clientes->nome}}</legend>
         <br/>
 
@@ -238,7 +238,7 @@ foreach($clientes->roteiros as $roteiro){
         <!-- Passeios -->
         <table class="table table-striped table-bordered table-hover">
             <tr>
-                <th colspan="6">PASSEIOS
+                <th colspan="7">PASSEIOS
                     <div class="pull-right">
                         <div class="pull-right">
                             <span class="badge">{{$contPasseio}}</span>
