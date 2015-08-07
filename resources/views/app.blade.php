@@ -23,65 +23,65 @@
 
 </head>
 <body>
-	<nav class="navbar navbar-inverse">
-		<div class="container-fluid">
-			<div class="navbar-header">
-				<!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-					<span class="sr-only">Toggle Navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button> -->
-				<a class="navbar-brand" href="{{route('clientes')}}"><span class="glyphicon glyphicon-globe"></span> VB</a>
-			</div>
+<nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle Navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button> -->
+            <a class="navbar-brand" href="{{route('clientes')}}"><span class="glyphicon glyphicon-globe"></span> <b>VB</b></a>
+        </div>
 
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li class="dropdown"><a href="{{ url('/admin/clientes') }}"><span class="glyphicon glyphicon-home"></span> </a></li>
-                    <li class="dropdown"><a href="{{ url('/admin/manutencoes') }}" data-toggle="dropdown" data-hover="dropdown" role="button" aria-expanded="false"><span class="glyphicon glyphicon-cog"></span> <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="{{ route('voos') }}">
-                                    <span class="glyphicon glyphicon-plane"></span> Manutenção Voos</a></li>
-                            <li><a href="{{ route('trens') }}">
-                                    <span class="glyphicon glyphicon-bed"></span> Manutenção Trens</a></li>
-                            <li><a href="{{ route('transfers') }}">
-                                    <span class="glyphicon glyphicon-road"></span> Manutenção Transfers</a></li>
-                            <li><a href="{{ route('passeios') }}">
-                                    <span class="glyphicon glyphicon-grain"></span> Manutenção Passeios</a></li>
-                            <li><a href="{{route('hoteis')}}">
-                                    <span class="glyphicon glyphicon-king"></span> Manutenção Hoteis</a></li>
-                            <li><a href="{{route('extras')}}">
-                                    <span class="glyphicon glyphicon-wrench"></span> Manutenção Extras</a></li>
-                            <li><a href="{{route('roteiros')}}">
-                                    <span class="glyphicon glyphicon-pushpin"></span> Manutenção Roteiros</a></li>
-                            <li><a href="{{route('situacao')}}">
-                                    <span class="glyphicon glyphicon-pushpin"></span> Manutenção Situações</a></li>
-                            <li><a href="{{route('categorias')}}">
-                                    <span class="glyphicon glyphicon-pushpin"></span> Manutenção Categorias</a></li>
-                            <li><a href="{{route('pacotes')}}">
-                                    <span class="glyphicon glyphicon-pushpin"></span> Manutenção Pacotes</a></li>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="dropdown"><a href="{{ url('/admin/clientes') }}"><span class="glyphicon glyphicon-home"></span> HOME</a></li>
+                <li class="dropdown"><a href="{{ url('/admin/manutencoes') }}" data-toggle="dropdown" data-hover="dropdown" role="button" aria-expanded="false"><span class="glyphicon glyphicon-cog"></span> MAINTENACE <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="{{ route('voos') }}">
+                                <span class="glyphicon glyphicon-plane"></span> Manutenção Voos</a></li>
+                        <li><a href="{{ route('trens') }}">
+                                <span class="glyphicon glyphicon-bed"></span> Manutenção Trens</a></li>
+                        <li><a href="{{ route('transfers') }}">
+                                <span class="glyphicon glyphicon-road"></span> Manutenção Transfers</a></li>
+                        <li><a href="{{ route('passeios') }}">
+                                <span class="glyphicon glyphicon-grain"></span> Manutenção Passeios</a></li>
+                        <li><a href="{{route('hoteis')}}">
+                                <span class="glyphicon glyphicon-king"></span> Manutenção Hoteis</a></li>
+                        <li><a href="{{route('extras')}}">
+                                <span class="glyphicon glyphicon-wrench"></span> Manutenção Extras</a></li>
+                        <li><a href="{{route('roteiros')}}">
+                                <span class="glyphicon glyphicon-pushpin"></span> Manutenção Roteiros</a></li>
+                        <li><a href="{{route('situacao')}}">
+                                <span class="glyphicon glyphicon-pushpin"></span> Manutenção Situações</a></li>
+                        <li><a href="{{route('categorias')}}">
+                                <span class="glyphicon glyphicon-pushpin"></span> Manutenção Categorias</a></li>
+                        <li><a href="{{route('pacotes')}}">
+                                <span class="glyphicon glyphicon-pushpin"></span> Manutenção Pacotes</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="{{ url('/admin/lembretes') }}"><span class="glyphicon glyphicon-book"></span> NOTE</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                @if (Auth::guest())
+                    <li><a href="{{ url('/auth/login') }}"><span class="glyphicon glyphicon-user"></span> Login</a></li>
+                    <li><a href="{{ url('/auth/register') }}"><span class="glyphicon glyphicon-plus"></span> Cadastre-se</a></li>
+                @else
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><span class="glyphicon glyphicon-user"></span> {{ Auth::user()->name }} <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="{{ url('/auth/logout') }}">Sair</a></li>
                         </ul>
                     </li>
-                    <li class="dropdown"><a href="{{ url('/admin/lembretes') }}"><span class="glyphicon glyphicon-book"></span> </a></li>
-                </ul>
-				<ul class="nav navbar-nav navbar-right">
-					@if (Auth::guest())
-						<li><a href="{{ url('/auth/login') }}"><span class="glyphicon glyphicon-user"></span> Login</a></li>
-						<li><a href="{{ url('/auth/register') }}"><span class="glyphicon glyphicon-plus"></span> Cadastre-se</a></li>
-					@else
-						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{{ Auth::user()->name }} <span class="caret"></span></a>
-							<ul class="dropdown-menu" role="menu">
-								<li><a href="{{ url('/auth/logout') }}">Sair</a></li>
-							</ul>
-						</li>
-					@endif
-				</ul>
-			</div>
-		</div>
-	</nav>
+                @endif
+            </ul>
+        </div>
+    </div>
+</nav>
 
-	@yield('content')
+@yield('content')
 
 	<!-- Scripts -->
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
