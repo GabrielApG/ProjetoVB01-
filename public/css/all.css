@@ -1884,11 +1884,11 @@ pre code {
     overflow-y: scroll; }
 
 .container {
-    margin-right: 0 auto;
-    margin-left: 0 auto;
-    padding-left: 0 auto;
-    padding-right: 0 auto;
-    width: 98%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: auto;
+    padding-right: auto;
+    border: 1px solid #ddd;
 }
 .container:before, .container:after {
     content: " ";
@@ -2444,9 +2444,7 @@ th {
     padding: 5px; }
 
 .table-bordered {
-    border: 1px solid #ddd;
-    width: 1320px;
-}
+    border: 1px solid #ddd; }
 .table-bordered > thead > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > th, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > th, .table-bordered > tfoot > tr > td {
     border: 1px solid #ddd; }
 .table-bordered > thead > tr > th, .table-bordered > thead > tr > td {
@@ -2529,7 +2527,7 @@ fieldset {
 
 legend {
     display: block;
-    width: 116%;
+    width: 100%;
     padding: 0;
     margin-bottom: 5px;
     font-size: 20px;
@@ -3446,7 +3444,7 @@ tbody.collapse.in {
     position: relative;
     display: block;
     padding: 7px 15px;
-    font-size: 13px;
+    font-size: 11px;
 }
 .nav > li > a:hover, .nav > li > a:focus {
     text-decoration: none;
@@ -3470,9 +3468,7 @@ tbody.collapse.in {
     max-width: none; }
 
 .nav-tabs {
-    border-bottom: 1px solid #ddd;
-    width: 116%;
-}
+    border-bottom: 1px solid #ddd; }
 .nav-tabs > li {
     float: left;
     margin-bottom: -1px; }
@@ -3562,7 +3558,7 @@ tbody.collapse.in {
         border-radius: 0; } }
 
 .navbar-header:before, .navbar-header:after {
-    content: "";
+    content: " ";
     display: table; }
 .navbar-header:after {
     clear: both; }
@@ -3611,10 +3607,8 @@ tbody.collapse.in {
     margin-left: -15px; }
 @media (min-width: 768px) {
     .container > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-header, .container-fluid > .navbar-collapse {
-        margin-right: 1px;
-        margin-left: 5px;
-
-    } }
+        margin-right: 0;
+        margin-left: 0; } }
 
 .navbar-static-top {
     z-index: 1000;
@@ -3644,7 +3638,7 @@ tbody.collapse.in {
 .navbar-brand {
     float: left;
     padding: 12px 15px;
-    font-size: 15px;
+    font-size: 19px;
     line-height: 21px;
     height: 45px; }
 .navbar-brand:hover, .navbar-brand:focus {
@@ -7471,9 +7465,8 @@ li > ul {
 .cidade{
     width: 130px;
 }
+
 .data{
     width: 70px;
 }
-.conjuntoBtns{
-    margin-left: 120px;
-}
+
