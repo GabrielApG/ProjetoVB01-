@@ -98,7 +98,7 @@ foreach($clientes->roteiros as $roteiro){
 
     <table class="table table-striped table-bordered table-hover">
         <tr>
-            <th colspan="5"><h5><strong> ROTEIROS DA VIAGEM </strong></h5></th>
+            <th colspan="4"><h5><strong> ROTEIROS DA VIAGEM </strong></h5></th>
         </tr>
         <tr>
             <th class="data">Data</th>

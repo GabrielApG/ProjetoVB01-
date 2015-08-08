@@ -15,6 +15,7 @@ class PacotesRequest extends Request {
 	{
 		return [
             'nome' => 'required',
+            'categorias_id' => 'required',
 		];
 	}
 

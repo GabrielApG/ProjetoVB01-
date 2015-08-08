@@ -25,7 +25,8 @@ class HoteisRequest extends Request {
             'nome' => 'required|min:5',
             'qtd_adultos' => 'required',
             'qtd_criancas' => 'required',
-            'diarias' => 'required'
+            'diarias' => 'required',
+            'cidades_id' => 'required',
 		];
 	}
 

@@ -12,6 +12,10 @@
     </ul>
     @endif
 
+    <div class="alert alert-info alert-dismissible" role="alert">
+        <strong>Obrigatório!</strong> a escolha de uma Categoria.
+    </div>
+
     {!! Form::open(['route'=>'pacotes.store', 'class'=>'form-horizontal']) !!}
 
     <div class="form-group">

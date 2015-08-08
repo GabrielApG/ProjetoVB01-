@@ -20,7 +20,7 @@
         <div class="form-group">
             <label for="precoCreateTranferCliente" class="col-md-2 control-label">Nome <span class="campo_obrigatorio">*</span></label>
             <div class="col-sm-5">
-                <input name="nome" id="nome" class="form-control" value="{{$extras->nome}}" readonly>
+                <input name="nome" id="nome" class="form-control" value="{{$extras->nome}}" type="hidden">
             </div>
         </div>
 

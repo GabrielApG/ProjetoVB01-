@@ -26,7 +26,7 @@
         <div class="form-group">
             <label for="destinoCreateTremCliente" class="col-md-2 control-label">Destino <span class="campo_obrigatorio">*</span></label>
             <div class="col-sm-6">
-                <input name="destino" id="destino" class="form-control" value="{{$trens->destino}}" readonly>
+                <input name="destino" id="destino" class="form-control" value="{{$trens->destino}}">
             </div>
         </div>
 
@@ -72,7 +72,7 @@
         <div class="form-group">
             <label for="valorCreateTremCliente" class="col-md-2 control-label">Valor <span class="campo_obrigatorio" >*</span></label>
             <div class="col-sm-2">
-                <input name="valor" id="valor" class="form-control" value="{{$trens->valor}}" readonly>
+                <input name="valor" id="valor" class="form-control" value="{{$trens->valor}}">
             </div>
         </div>
 

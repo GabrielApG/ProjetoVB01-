@@ -22,7 +22,8 @@ class LembretesRequest extends Request {
 	public function rules()
 	{
 		return [
-			//
+            'titulo' => 'required',
+            'descricao' => 'required',
 		];
 	}
 

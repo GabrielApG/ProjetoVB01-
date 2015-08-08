@@ -4,13 +4,13 @@
     <div class="container">
     
     <legend>Cadastrar novo Hotel - {{$cliente->nome}}</legend><br />
-    @if ($errors->any())
-    <ul class="alert alert-warning">
-        @foreach($errors->all() as $error)
-        <li>{{ $error }}</li>
-        @endforeach
-    </ul>
-    @endif
+        @if ($errors->any())
+        <ul class="alert alert-warning">
+            @foreach($errors->all() as $error)
+            <li>{{ $error }}</li>
+            @endforeach
+        </ul>
+        @endif
         <!-- <input name="nome" id="nome" class="form-control" type="hidden" readonly > -->
         <!-- {!! Form::text('valor', null, ['class'=>'form-control']) !!} -->
         {!! Form::open(['route'=>'hoteis.storeAttach', 'class'=>'form-horizontal', 'method'=>'post']) !!}
@@ -71,13 +71,13 @@
             </div>
         </div>
 
-        <div class="form-group">
+        <div class="form-group  control-label">
             <label for="statusHotelCliente" class="col-md-2 control-label">Status</label>
             <div class="col-sm-2">
                 {!! Form::text('status', null, ['class'=>'form-control', 'id'=>'statusHotelCliente']) !!}
             </div>
 
-            <label for="quantidadeadultosHotelCliente" class="col-md-1 control-label">Qtd. Adultos</label>
+            <label for="quantidadeadultosHotelCliente" class="col-md-1">Qtd. Adultos</label>
             <div class="col-sm-1">
                 {!! Form::text('qtd_adultos', null, ['class'=>'form-control', 'id'=>'qtd_adultos']) !!}
             </div>
@@ -86,7 +86,6 @@
             <div class="col-sm-1">
                 {!! Form::text('qtd_criancas', null, ['class'=>'form-control', 'id'=>'qtd_criancas']) !!}
             </div>
-            
         </div>
 
         <div class="form-group">
@@ -144,7 +143,6 @@
         {!! Form::close() !!}
 </div>
 @endsection
-
 
 @section('post-script')
     <!--Java Script preenchimento Cidades-->

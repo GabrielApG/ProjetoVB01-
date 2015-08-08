@@ -30,22 +30,22 @@
         </tr>
         <tr>
             <th>ID</th>
-            <th>Pais</th>
-            <th>Cidade</th>
-            <th>Nome</th>
+            <th class="data">Data</th>
+            <th class="pais">Pais</th>
+            <th class="cidade">Cidade</th>
+            <th class="cidade">Nome</th>
             <th>Descrição</th>
-            <th>Data</th>
             <th colspan="2">Ações</th>
         </tr>
         @foreach($clientes->roteiros as $r)
             <?php if($r->orcamento == 0){?>
             <tr class="text-center">
                 <td>{{$r->id}}</td>
+                <td>{{$r->data}}</td>
                 <td>{{$r->cidades->codigo_pais}}</td>
                 <td>{{$r->cidades->nome}}</td>
                 <td>{{$r->nome}}</td>
                 <td>{{$r->descricao}}</td>
-                <td>{{$r->data}}</td>
                 <td class="acoes">
                     <a href="{{route('roteiros.edit',['roteiros_id'=>$r->id])}}" name="edit" class="btn-xs btn-warning"><span class="glyphicon glyphicon-pencil"></span> </a>
                 </td>

@@ -50,6 +50,13 @@
         </div>
 
         <div class="form-group">
+            <label for="paisCreateVooOrc" class="col-md-2 control-label">Valor: </label>
+            <div class="col-sm-2">
+                <input class="form-control" name="valor" id="valor" value="{{$voos->valor}}">
+            </div>
+        </div>
+
+        <div class="form-group">
             {!! Form::hidden('orcamento', 1, ['class'=>'form-control']) !!}
         </div>
 
@@ -63,7 +70,6 @@
             {!! Form::hidden('num_voo', null, ['class'=>'form-control']) !!}
             {!! Form::hidden('escalas', null, ['class'=>'form-control']) !!}
             {!! Form::hidden('observacao', null, ['class'=>'form-control']) !!}
-            {!! Form::hidden('valor', null, ['class'=>'form-control']) !!}
 
         <div class="form-group">
             <a onclick="goBack()" class="btn btn-primary"><span class="glyphicon glyphicon-circle-arrow-left"></span> Voltar</a>

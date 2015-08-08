@@ -37,13 +37,13 @@
         </ul>
 
     <br />
-    @if ($errors->any())
-    <ul class="alert alert-warning">
-        @foreach($errors->all() as $error)
-        <li>{{ $error }}</li>
-        @endforeach
-    </ul>
-    @endif
+    {{--@if ($errors->any())--}}
+    {{--<ul class="alert alert-warning">--}}
+        {{--@foreach($errors->all() as $error)--}}
+        {{--<li>{{ $error }}</li>--}}
+        {{--@endforeach--}}
+    {{--</ul>--}}
+    {{--@endif--}}
 
     {!! Form::open(['route'=>'clientes.store', 'class'=>'form-horizontal']) !!}
     <legend>Dados principais</legend><br />
@@ -52,6 +52,7 @@
             <label class="col-md-2 control-label">Nome <span class="campo_obrigatorio">*</span></label>
             <div class="col-sm-8">
                 {!! Form::text('nome', null, ['class'=>'form-control', 'placeholder'=>'Nome completo']) !!}
+                @if ($errors->has('nome'))<p style="color:#CD3F3F;">{!!$errors->first('nome')!!}</p>@endif
             </div>
         </div>
 
@@ -59,11 +60,13 @@
             <label class="col-md-2 control-label">Telefone <span class="campo_obrigatorio">*</span></label>
             <div class="col-sm-2">
                 {!! Form::text('telefone', null, ['class'=>'form-control', 'id'=>'telefone', 'placeholder'=>'(99) 99999-9999']) !!}
+                @if ($errors->has('telefone'))<p style="color:#CD3F3F;">{!!$errors->first('telefone')!!}</p>@endif
             </div>
            
             <label class="col-md-2 control-label">E-mail <span class="campo_obrigatorio">*</span></label>
             <div class="col-sm-4">
                 {!! Form::text('email','',['class'=>'form-control', 'placeholder'=>'email@email.com.br']) !!}
+                @if ($errors->has('email'))<p style="color:#CD3F3F;">{!!$errors->first('email')!!}</p>@endif
             </div>
         </div>
 
@@ -71,11 +74,13 @@
             <label class="col-md-2 control-label">Categoria <span class="campo_obrigatorio">*</span></label>
             <div class="col-sm-2">
                 {!! Form::select('categorias_id',  array('0' => 'Selecione') + $categoria, null, ['class'=>'form-control']) !!}
+                @if ($errors->has('categorias_id'))<p style="color:#CD3F3F;">{!!$errors->first('categorias_id')!!}</p>@endif
             </div>
 
             <label class="col-md-2 control-label">Pacotes <span class="campo_obrigatorio">*</span></label>
             <div class="col-sm-4">
                 {!! Form::select('pacotes_id', [], null, ['class'=>'form-control']) !!}
+                @if ($errors->has('pacotes_id'))<p style="color:#CD3F3F;">{!!$errors->first('pacotes_id')!!}</p>@endif
             </div>
         </div>
 
@@ -83,6 +88,7 @@
             <label class="col-md-2 control-label">Situação <span class="campo_obrigatorio">*</span></label>
             <div class="col-sm-2">
                 {!! Form::select('situacoes_id', array('0' => 'Selecione') +  $situacao, null, ['class'=>'form-control']) !!}
+                @if ($errors->has('situacoes_id'))<p style="color:#CD3F3F;">{!!$errors->first('situacoes_id')!!}</p>@endif
             </div>
         </div>
 

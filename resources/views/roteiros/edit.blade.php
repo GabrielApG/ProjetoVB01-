@@ -49,7 +49,7 @@
         </div>
     </div>
 
-    {!! Form::hidden('orcamento', $roteiros->descricao, ['class'=>'form-control']) !!}
+    {!! Form::hidden('orcamento', $roteiros->orcamento, ['class'=>'form-control']) !!}
 
     <div class="form-group">
         <a onclick="goBack()" class="btn btn-primary"><<   Voltar</a>

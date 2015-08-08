@@ -22,7 +22,11 @@ class HoteisOrcamentoRequest extends Request {
 	public function rules()
 	{
 		return [
-			//
+            'nome' => 'required',
+            'qtd_adultos' => 'required',
+            'qtd_criancas' => 'required',
+            'diarias' => 'required',
+            'cidades_id' => 'required',
 		];
 	}
 

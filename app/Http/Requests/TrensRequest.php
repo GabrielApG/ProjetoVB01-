@@ -22,7 +22,8 @@ class TrensRequest extends Request {
 	public function rules()
 	{
 		return [
-			'id' => 'require',
+            'nome' => 'required',
+            'cidades_id' => 'required',
 		];
 	}
 

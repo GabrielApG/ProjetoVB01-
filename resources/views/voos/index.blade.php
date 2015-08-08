@@ -46,6 +46,7 @@
             <th>País</th>
             <th>Cidade Origem</th>
             <th>Destino</th>
+            <th>Valor</th>
             <th colspan="2" class="acoes">Ações</th>
         </tr>
         </thead>
@@ -59,6 +60,7 @@
             <td>{{ $voo->cidades->codigo_pais}}</td>
             <td>{{ $voo->cidades->nome}}</td>
             <td>{{ $voo->local_des }}</td>
+            <td>{{$voo->valor}}</td>
             <td class="acoes">
                 <a href="{{ route('voos.edit',['id'=>$voo->id]) }}" name="edit" class="btn-xs btn-warning"><span class="glyphicon glyphicon-pencil"></span> </a>
             </td>

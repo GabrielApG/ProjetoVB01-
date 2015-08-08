@@ -46,7 +46,7 @@
 		<tbody>
 
 		@foreach($roteiros as $r)
-
+            <?php if($r->orcamento == 1){?>
         <tr>
             <td>{{ $r->id }}</td>
             <td>{{$r->cidades->codigo_pais}}</td>
@@ -60,7 +60,7 @@
                 <a href="{{ route('roteiros.destroy',['id'=>$r->id]) }}" name="excluir" class="btn-xs btn-danger"><span class="glyphicon glyphicon-trash"></span> </a>
             </td>
         </tr>
-
+            <?php }?>
 		@endforeach
 
 		</tbody>

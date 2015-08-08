@@ -22,7 +22,7 @@ class RoteirosRequest extends Request {
 	public function rules()
 	{
 		return [
-			//
+            'cidades_id' => 'required',
 		];
 	}
 

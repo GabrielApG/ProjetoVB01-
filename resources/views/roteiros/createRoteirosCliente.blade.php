@@ -24,13 +24,6 @@
             {!! Form::hidden('clientes_id', $clientes->id, ['class'=>'form-control']) !!}
             <input name="nome" id="nome" class="form-control" type="hidden" readonly >
 
-        <div class="form-group">
-            <label for="precoCreateTranferCliente" class="col-md-2 control-label">Nome <span class="campo_obrigatorio">*</span></label>
-            <div class="col-sm-5">
-                <input name="nome" id="nome" class="form-control">
-            </div>
-        </div>
-
         <input name="cidades_id" id="cidades_id" class="form-control" type="hidden">
         <div class="form-group">
             <label for="descricaoCreatePacotes" class="col-md-2 control-label">Descrição <span class="campo_obrigatorio">*</span></label>

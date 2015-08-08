@@ -13,6 +13,7 @@ class VoosRequest extends Request {
 	{
         return [
             'nome_voo' => 'required',
+            'cidades_id' => 'required',
         ];
 	}
 

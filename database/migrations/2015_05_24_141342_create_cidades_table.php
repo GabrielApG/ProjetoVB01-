@@ -12,7 +12,7 @@ class CreateCidadesTable extends Migration {
 		{
 			$table->increments('id');
             $table->string('nome',100);
-            $table->string('codigo_pais',3);
+            $table->string('codigo_pais',50);
             $table->string('distrito',100);
             $table->integer('populacao');
 		});

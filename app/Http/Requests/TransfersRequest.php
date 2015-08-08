@@ -22,7 +22,8 @@ class TransfersRequest extends Request {
 	public function rules()
 	{
 		return [
-			//
+            'nome' => 'required',
+            'cidades_id' => 'required',
 		];
 	}
 

@@ -18,7 +18,8 @@ class VoosOrcamentoRequest extends Request {
 	public function rules()
 	{
 		return [
-			//
+            'nome_voo' => 'required',
+            'cidades_id' => 'required',
 		];
 	}
 

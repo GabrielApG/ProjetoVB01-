@@ -339,13 +339,13 @@
             <td class="valores">R$
                 <?php
 
-                    if($h->diarias == 0 || $h->qtd_adultos == 0 || $h->qtd_adultos == 0){
+                    if($h->diarias == 0 || $h->qtd_adultos == 0 || $h->qtd_adultos == null){
 
                     }else if($h->diarias == 0){
 
                         echo ($h->valor / $h->qtd_adultos) + $h->valor_extra;
 
-                    }else if($h->qtd_adultos == 0){
+                    }else if($h->qtd_adultos == 0 || $h->qtd_adultos == null){
 
                         echo ($h->valor / $h->qtd_adultos) * $h->diarias;
                     }
@@ -468,7 +468,7 @@
     <!-- Roteiros -->
     <table class="table table-striped table-bordered table-hover">
         <tr>
-            <th colspan="7">ROTEIRO
+            <th colspan="8">ROTEIRO
                 <div class="pull-right">
                     <div class="pull-right">
                         <a href="#roteiro" rel="modal" class="linkadicionadetalhe" role="group" data-toggle="modal" data-target="#roteiro" data-whatever="@mdo" >
@@ -480,6 +480,7 @@
         </tr>
         <tr>
             <th class="cod">ID</th>
+            <th class="data">Data</th>
             <th class="nome">Nome</th>
             <th class="pais">Pais</th>
             <th class="cidade">Cidade</th>
@@ -490,10 +491,19 @@
             <?php if($r->orcamento == 0){?>
             <tr class="text-center">
                 <td>{{$r->id}}</td>
+                <td>{{$r->data}}</td>
                 <td>{{$r->nome}}</td>
                 <td>{{$r->cidades->codigo_pais}}</td>
                 <td>{{$r->cidades->nome}}</td>
-                <td class="text-justify" id="td">{{$r->descricao}}</td>
+                <td class="text-justify">
+                <?php
+
+                $string = $r->descricao;
+                $substr1 = substr($string, 0,90);
+                        echo $substr1.(' ...');
+
+                ?>
+                </td>
                 <td class="acoes">
                     <a href="{{route('roteiros.edit',['roteiros_id'=>$r->id])}}" name="edit" class="btn-xs btn-warning"><span class="glyphicon glyphicon-pencil"></span> </a>
                 </td>
