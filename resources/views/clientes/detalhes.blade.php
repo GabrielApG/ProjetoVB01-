@@ -948,7 +948,7 @@
 @section('post-script')
 <script type="text/javascript">
 
-    trocaBackground();
+    $('select[name=pacotes_id]').attr("disabled", true);
 
         $('a[name=excluir]').on('click', function () {
             $('a[name=excluir]').confirmation();
@@ -960,6 +960,7 @@
         $.get('/get-pacotes/' + idCategoria, function (pacotes_id) {
             $('select[name=pacotes_id]').empty();
             $.each(pacotes_id, function (key, value) {
+                $('select[name=pacotes_id]').attr("disabled", false);
                 $('select[name=pacotes_id]').append('<option value=' + value.id + '>' + value.nome + '</option>');
             });
         });

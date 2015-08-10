@@ -36,7 +36,6 @@ class RelatoriosController extends Controller {
 
     public function pdfCompra($id)
     {
-
         $clientes = Clientes::find($id);
 
         $total = 0;
@@ -108,6 +107,12 @@ class RelatoriosController extends Controller {
                 $contRoteiros++;
             }
         }
+
+        $valor = $total;
+        $valor2 = ($total / 2);
+        $valor3 = ($total / 3);
+        $valor5 = ($total / 5);
+        $valor10 = ($total / 10);
 
         $pdf = App::make('dompdf.wrapper');
         $html = '<html>
@@ -503,38 +508,40 @@ class RelatoriosController extends Controller {
                         <input type="checkbox" id="2A" name="2A" value="Sim">
                     </td>
                     <td>2 Vezes</td>
-                    <td><input name="valor6" id="valor6" class="text-center" readonly/></td>
+                    <td>'.'R$: '.number_format($valor2,2); $html.='</td>
                 </tr>
                 <tr>
                     <td>
                         <input type="checkbox" id="3A" name="3A" value="Sim">
                     </td>
                     <td>3 Vezes</td>
-                    <td><input name="valor6" id="valor6" class="text-center" readonly/></td>
+                   <td>'.'R$: '.number_format($valor3,2); $html.='</td>
                 </tr>
                 <tr>
                     <td>
                          <input type="checkbox" id="5A" name="5A" value="Sim">
                     </td>
                     <td>5 Vezes</td>
-                    <td><input name="valor6" id="valor6" class="text-center" readonly/></td>
+                     <td>'.'R$: '.number_format($valor5,2); $html.='</td>
                 </tr>
                 <tr>
                     <td>
                         <input type="checkbox" id="10A" name="10A" value="Sim">
                     </td>
                     <td>10 Vezes</td>
-                    <td><input name="valor6" id="valor6" class="text-center" readonly/></td>
+                    <td>'.'R$: '.number_format($valor10,2); $html.='</td>
                 </tr>
                 <tr>
-                    <td>
+                    <td><b>
                         Total
-                    </td>
-                    <td id="valorAereo" colspan="2"><input name="valor6" id="valor6" class="text-center" readonly/></td>
+                    </b></td>
+                    <td colspan="2"><b>'.'R$: '.number_format($valor,2); $html.='</b></td>
                 </tr>
                 </tbody>
             </table>
         </div>
+
+
 
         <div class="col-md-4">
             <table class="table table-hover">
@@ -587,29 +594,6 @@ class RelatoriosController extends Controller {
         $html .= '</body>';
 
         $html .='</html>';
-
-        $html .= '<script type="text/javascript">';
-
-        echo "function formatReal(mixed) {
-            var int = parseInt(mixed.toFixed(2).toString().replace(/[^]+/g, ''));
-            var tmp = int + '';
-            tmp = tmp.replace(/([0-9]{2})$/g, ",'$1'.");
-
-            if (tmp.length > 6)
-                tmp = tmp.replace(/([0-9]{3}),([0-9]{2}$)/g, ".'$1,$2'.");
-
-            return tmp;
-        }";
-
-
-        echo "var valorTotal =" .$total;
-
-        echo "$('input[name=valor]').val('R$ '+formatReal(valorTotal));";
-        echo "$('input[name=valor2]').val('R$ '+formatReal(valorTotal / 2));";
-        echo "$('input[name=valor3]').val('R$ '+formatReal(valorTotal / 3));";
-        echo "$('input[name=valor5]').val('R$ '+formatReal(valorTotal / 5));";
-        echo "$('input[name=valor6]').val('R$ '+formatReal(valorTotal / 6));";
-        echo "alert('OK');";
 
         $pdf->loadHTML($html);
         return $pdf->stream();

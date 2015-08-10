@@ -39,6 +39,12 @@ class HoteisController extends Controller
         return view('hoteis.edit', compact('hoteis','paises'));
     }
 
+    public function destroy($id)
+    {
+        $hoteis = Hoteis::find($id)->delete();
+        return redirect('admin/hoteis');
+    }
+
     public function updateHotel(HoteisOrcamentoRequest $request, $id)
     {
         $hoteis = Hoteis::find($id)->update($request->all());

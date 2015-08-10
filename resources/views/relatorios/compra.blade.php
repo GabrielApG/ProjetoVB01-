@@ -429,6 +429,13 @@ foreach($clientes->roteiros as $roteiro){
 
     <br/><br/><br/>
 
+    {{
+        $valor2 = $total / 2
+
+    }}
+
+
+    <h1>Valor: <?php echo 'R$: '.number_format($valor2,2); ?></h1>
 
     </div>
 </div>
